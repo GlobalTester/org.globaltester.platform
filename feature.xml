@@ -6,16 +6,35 @@
       provider-name="HJP Consulting GmbH"
       plugin="org.globaltester.core">
 
-   <description url="http://www.example.com/description">
-      [Enter Feature Description here.]
+   <description url="http://www.globaltester.org">
+      GlobalTester offers an integrated test environment with a holistic
+approach to testing that covers test specification, test execution,
+test evaluation, detailed failure analysis and reporting. All
+conformity tests can be customized and extended by user-defined
+tests through GlobalPlatform scripting. Customers can either
+develop customized test suites on their own or ask the HJP experts
+to develop test suites for them.
    </description>
 
-   <copyright url="http://www.example.com/copyright">
-      [Enter Copyright Description here.]
+   <copyright url="http://www.hjp-consulting.com/">
+      Copyright HJP Consulting GmbH, Borchen (Germany)
    </copyright>
 
-   <license url="http://www.example.com/license">
-      [Enter License Description here.]
+   <license url="http://www.gnu.org/licenses/old-licenses/gpl-2.0.txt">
+      This program is free software; you can redistribute it and/or
+modify it under the terms of the GNU General Public License version
+2 as published by the Free Software Foundation.
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+GNU General Public License for more details.
+You should have received a copy of the GNU General Public License
+along with this program; if not, write to the Free Software Foundation,
+Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301,
+USA.
+If you would like to include this software or parts of it in
+your own software and do not publish your code under the GPL,
+then you will need a commercial license from us (Dual-license).
    </license>
 
    <plugin
