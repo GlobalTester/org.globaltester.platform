@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+   <feature url="features/org.globaltester.rcp.product_3.0.1.jar" id="org.globaltester.rcp.product" version="3.0.1">
+      <category name="GlobalTester"/>
+   </feature>
+   <category-def name="GlobalTester" label="GlobalTester"/>
+</site>
