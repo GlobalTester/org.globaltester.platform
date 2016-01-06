@@ -35,7 +35,6 @@
       </win>
    </launcher>
 
-
    <vm>
    </vm>
 
@@ -191,10 +190,10 @@ then you will need a commercial license from us (Dual-license).
    </plugins>
 
    <features>
-      <feature id="org.globaltester.platform.feature" version="3.0.2.qualifier"/>
-      <feature id="org.eclipse.platform" version="4.5.1.v20150904-0015"/>
-      <feature id="org.eclipse.emf.ecore" version="2.11.1.v20150805-0538"/>
-      <feature id="org.eclipse.emf.common" version="2.11.0.v20150805-0538"/>
+      <feature id="org.globaltester.platform.feature"/>
+      <feature id="org.eclipse.platform"/>
+      <feature id="org.eclipse.emf.ecore"/>
+      <feature id="org.eclipse.emf.common"/>
       <feature id="org.eclipse.equinox.p2.user.ui"/>
       <feature id="org.eclipse.ecf.filetransfer.httpclient4.feature"/>
       <feature id="org.eclipse.help"/>
@@ -208,7 +207,7 @@ then you will need a commercial license from us (Dual-license).
       <feature id="org.eclipse.ecf.core.ssl.feature"/>
       <feature id="org.eclipse.ecf.filetransfer.ssl.feature"/>
       <feature id="org.eclipse.e4.rcp"/>
-      <feature id="org.eclipse.wst.jsdt.feature" version="1.6.201.v201508262249"/>
+      <feature id="org.eclipse.wst.jsdt.feature"/>
    </features>
 
    <configurations>
