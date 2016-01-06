@@ -1,0 +1,7 @@
+/* show the "selected" image for this page */
+#navigation-links a#overview img {
+	background-image : url(../graphics/icons/overview.png); 
+	width : 48px;
+	height: 48px;
+	margin-top : 12px;
+}

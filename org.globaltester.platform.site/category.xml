@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+   <feature id="org.hjp.globaltester.platform.feature">
+      <category name="org.hjp.globaltester.platform"/>
+   </feature>
+   <category-def name="org.hjp.globaltester.platform" label="GlobalTester Platform"/>
+</site>

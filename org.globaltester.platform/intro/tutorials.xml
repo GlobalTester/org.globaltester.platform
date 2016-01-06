@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<introContent>
+
+	<extensionContent id="globaltesterorg-introExtension"
+		style="css/tutorials.css" name="GlobalTester.org" path="tutorials/@">
+		<group label="Getting started with GlobalTester" style-id="content-group"
+			id="globaltesterorg-introLink-group">
+			<link
+				url="http://org.eclipse.ui.intro/showStandby?partId=org.eclipse.platform.cheatsheet&amp;input=org.globaltester.testspecification.doc.cheatsheet.importOfATestSpec"
+				label="Import of a TestSpecification" id="importTestSpec" style-id="content-link">
+				<text>Learn how to import your first test specification into your
+					workspace to get started.</text>
+			</link>
+			<link
+				url="http://org.eclipse.ui.intro/showStandby?partId=org.eclipse.platform.cheatsheet&amp;input=org.globaltester.testrunner.doc.cheatsheet.executeTestCases"
+				label="Execute TestCases" id="runTests" style-id="content-link">
+				<text>Learn how to execute TestCases and evaluate their results.
+				</text>
+			</link>
+			<link
+				url="http://org.eclipse.ui.intro/showStandby?partId=org.eclipse.platform.cheatsheet&amp;input=org.globaltester.testspecification.doc.cheatsheets.createAndExportATestSpec"
+				label="Create your own TestSpecification" id="createTestSpec" style-id="content-link">
+				<text>Learn how to create your own TestSpecification from scratch
+					and how to export it to ODF in order to distribute it.</text>
+			</link>
+		</group>
+	</extensionContent>
+
+</introContent>

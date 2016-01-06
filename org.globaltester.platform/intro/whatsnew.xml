@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<introContent>
+	<extensionContent id="globaltesterorg-introExtension"
+		style="css/whatsnew.css" name="GlobalTester.org" path="whatsnew/@">
+		<group style-id="content-group" id="content-group">
+			<link label="GlobalTester"
+				url="http://org.eclipse.ui.intro/showHelpTopic?id=/org.globaltester.core.doc/html/user/whatsnew.html"
+				id="globaltester-noteworthy" style-id="content-link">
+				<text>Find out about the major new features in this release of
+					GlobalTester</text>
+			</link>
+		</group>
+	</extensionContent>
+
+</introContent>

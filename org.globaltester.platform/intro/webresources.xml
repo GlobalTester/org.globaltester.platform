@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<introContent>
+
+	<extensionContent style="css/webresources.css" name="GlobalTester Webresources"
+		path="webresources/@">
+		<group style-id="content-group" id="globaltesterorg-introLink-group">
+			<link label="GlobalTester.org" url="http://www.globaltester.org"
+				id="globaltesterorg" style-id="content-link">
+				<text>The homepage of GlobalTester. This site provides you helpful
+					information, tips and tricks for your daily work with GlobalTester.
+				</text>
+			</link>
+		</group>
+
+		<group style-id="content-group" id="hjpconsultingcom-introLink-group">
+			<link label="HJP-Consulting.com" url="http://www.hjp-consulting.com"
+				id="hjpconsultingcom" style-id="content-link">
+				<text>... the company behind GlobalTester.</text>
+			</link>
+		</group>
+	</extensionContent>
+
+</introContent>

@@ -1,0 +1,6 @@
+a#importTestSpec img { background-image : url('../../icons/testspec48.png'); }
+a#importTestSpec:hover img { background-image : url('../../icons/testspec48.png'); }
+a#runTests img { background-image : url('../../icons/run48.png'); }
+a#runTests:hover img { background-image : url('../../icons/run48.png'); }
+a#createTestSpec img { background-image : url('../../icons/testspec48.png'); }
+a#createTestSpec:hover img { background-image : url('../../icons/testspec48.png'); }
