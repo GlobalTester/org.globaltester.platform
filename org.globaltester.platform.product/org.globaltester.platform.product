@@ -4,7 +4,7 @@
 <product name="GlobalTester Platform" uid="org.globaltester.platform.product" id="org.globaltester.platform.product" application="org.eclipse.ui.ide.workbench" version="3.0.2" useFeatures="true" includeLaunchers="true">
 
    <aboutInfo>
-      <image path="/org.globaltester.rcp/icons/about.png"/>
+      <image path="/org.globaltester.platform/icons/about.png"/>
       <text>
          %aboutText
       </text>
@@ -27,11 +27,17 @@
       startupProgressRect="0,280,455,15"
       startupMessageRect="5,260,435,20"
       startupForegroundColor="000000" />
-   <launcher>
+   <launcher name="GlobalTester">
       <solaris/>
       <win useIco="true">
-         <ico path="/org.globaltester.rcp/icons/globaltester.ico"/>
-         <bmp/>
+         <bmp
+            winSmallHigh="../org.globaltester.platform/icons/gt16.bmp"
+            winSmallLow="../org.globaltester.platform/icons/gt16_8.bmp"
+            winMediumHigh="../org.globaltester.platform/icons/gt32.bmp"
+            winMediumLow="../org.globaltester.platform/icons/gt32_8.bmp"
+            winLargeHigh="../org.globaltester.platform/icons/gt48.bmp"
+            winLargeLow="../org.globaltester.platform/icons/gt48_8.bmp"
+            winExtraLargeHigh="../org.globaltester.platform/icons/gt256.bmp"/>
       </win>
    </launcher>
 
