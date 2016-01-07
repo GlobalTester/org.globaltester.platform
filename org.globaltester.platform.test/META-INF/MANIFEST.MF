@@ -1,7 +1,7 @@
 Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
 Bundle-Name: GlobalTester RCP Test
-Bundle-SymbolicName: org.globaltester.platform.test
+Bundle-SymbolicName: org.globaltester.platform.integrationtest
 Bundle-Version: 3.0.1
 Bundle-Vendor: HJP Consulting GmbH
 Fragment-Host: org.globaltester.platform
