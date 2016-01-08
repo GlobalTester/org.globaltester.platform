@@ -64,7 +64,7 @@
          </property>
          <property
                name="aboutImage"
-               value="/org.globaltester.rcp/icons/about.png">
+               value="/org.globaltester.platform/icons/about.png">
          </property>
          <property
                name="aboutText"
