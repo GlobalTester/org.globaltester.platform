@@ -1,0 +1,7 @@
+/* show the "selected" image for this page */
+#navigation-links a#tutorials img {
+	background-image : url(../graphics/icons/tutorials.png); 
+	width : 48px;
+	height: 48px;
+	margin-top : 12px;
+}

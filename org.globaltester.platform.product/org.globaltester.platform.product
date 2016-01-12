@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?pde version="3.5"?>
+
+<product name="GlobalTester Platform" uid="org.globaltester.platform.product" id="org.globaltester.platform.product" application="org.eclipse.ui.ide.workbench" version="3.0.2" useFeatures="true" includeLaunchers="true">
+
+   <aboutInfo>
+      <image path="/org.globaltester.platform/icons/about.png"/>
+      <text>
+         %aboutText
+      </text>
+   </aboutInfo>
+
+   <configIni use="default">
+   </configIni>
+
+   <launcherArgs>
+      <vmArgs>-Xms40m -Xmx384m
+      </vmArgs>
+      <vmArgsMac>-XstartOnFirstThread -Dorg.eclipse.swt.internal.carbon.smallFonts
+      </vmArgsMac>
+   </launcherArgs>
+
+   <windowImages i16="icons/gt16.png" i32="icons/gt32.png" i64="icons/gt64.png"/>
+
+   <splash
+      location="org.globaltester.platform"
+      startupProgressRect="0,280,455,15"
+      startupMessageRect="5,260,435,20"
+      startupForegroundColor="000000" />
+   <launcher name="GlobalTester">
+      <solaris/>
+      <win useIco="true">
+         <bmp
+            winSmallHigh="../org.globaltester.platform/icons/gt16.bmp"
+            winSmallLow="../org.globaltester.platform/icons/gt16_8.bmp"
+            winMediumHigh="../org.globaltester.platform/icons/gt32.bmp"
+            winMediumLow="../org.globaltester.platform/icons/gt32_8.bmp"
+            winLargeHigh="../org.globaltester.platform/icons/gt48.bmp"
+            winLargeLow="../org.globaltester.platform/icons/gt48_8.bmp"
+            winExtraLargeHigh="../org.globaltester.platform/icons/gt256.bmp"/>
+      </win>
+   </launcher>
+
+
+   <vm>
+   </vm>
+
+   <license>
+        <url>http://www.gnu.org/licenses/old-licenses/gpl-2.0.txt</url>
+        <text>
+   This program is free software; you can redistribute it and/or
+modify it under the terms of the GNU General Public License version
+2 as published by the Free Software Foundation.
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+GNU General Public License for more details.
+You should have received a copy of the GNU General Public License
+along with this program; if not, write to the Free Software Foundation,
+Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301,
+USA.
+If you would like to include this software or parts of it in
+your own software and do not publish your code under the GPL,
+then you will need a commercial license from us (Dual-license).
+         </text>
+   </license>
+
+   <features>
+      <feature id="org.globaltester.platform.feature"/>
+      <feature id="org.eclipse.platform"/>
+      <feature id="org.eclipse.emf.ecore"/>
+      <feature id="org.eclipse.emf.common"/>
+      <feature id="org.eclipse.equinox.p2.user.ui"/>
+      <feature id="org.eclipse.ecf.filetransfer.httpclient4.feature"/>
+      <feature id="org.eclipse.help"/>
+      <feature id="org.eclipse.ecf.filetransfer.httpclient4.ssl.feature"/>
+      <feature id="org.eclipse.equinox.p2.extras.feature"/>
+      <feature id="org.eclipse.rcp"/>
+      <feature id="org.eclipse.equinox.p2.core.feature"/>
+      <feature id="org.eclipse.ecf.core.feature"/>
+      <feature id="org.eclipse.equinox.p2.rcp.feature"/>
+      <feature id="org.eclipse.ecf.filetransfer.feature"/>
+      <feature id="org.eclipse.ecf.core.ssl.feature"/>
+      <feature id="org.eclipse.ecf.filetransfer.ssl.feature"/>
+      <feature id="org.eclipse.e4.rcp"/>
+      <feature id="org.eclipse.wst.jsdt.feature"/>
+   </features>
+
+   <configurations>
+      <plugin id="org.eclipse.core.runtime" autoStart="true" startLevel="0" />
+      <plugin id="org.eclipse.equinox.common" autoStart="true" startLevel="2" />
+      <plugin id="org.eclipse.equinox.ds" autoStart="true" startLevel="2" />
+      <plugin id="org.eclipse.equinox.event" autoStart="true" startLevel="2" />
+      <plugin id="org.eclipse.equinox.p2.reconciler.dropins" autoStart="true" startLevel="0" />
+      <plugin id="org.eclipse.equinox.simpleconfigurator" autoStart="true" startLevel="1" />
+   </configurations>
+
+   <preferencesInfo>
+      <targetfile overwrite="false"/>
+   </preferencesInfo>
+
+   <cssInfo>
+   </cssInfo>
+
+</product>

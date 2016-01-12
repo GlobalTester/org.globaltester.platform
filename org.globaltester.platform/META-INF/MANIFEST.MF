@@ -1,0 +1,15 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: GlobalTester Platform
+Bundle-SymbolicName: org.globaltester.platform;singleton:=true
+Bundle-Version: 3.0.2
+Bundle-Activator: org.globaltester.platform.Activator
+Bundle-RequiredExecutionEnvironment: JavaSE-1.7
+Bundle-ActivationPolicy: lazy
+Bundle-Vendor: HJP Consulting GmbH
+Require-Bundle: org.eclipse.help.ui;bundle-version="4.0.100",
+ org.eclipse.ui.ide,
+ org.eclipse.core.resources,
+ org.eclipse.ui.cheatsheets;bundle-version="3.4.200"
+
+

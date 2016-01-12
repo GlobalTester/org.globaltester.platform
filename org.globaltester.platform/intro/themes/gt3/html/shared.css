@@ -1,0 +1,240 @@
+/* 
+ * Set up general fonts, sizes and colors 
+ */
+body { 
+	background-color : #ffffff;
+	font-family : Arial, sans-serif;
+	
+}
+
+H1, H2, H3, H4 { color : #fa960a; }
+
+p { color : #696e73; }
+
+html, body {    
+    overflow : auto;
+    overflow-clip: rect(0, auto, auto, 0);
+    background-color : transparent;
+    background-image : url("../graphics/background.png");
+    background-position : top left;
+    background-repeat : no-repeat;
+    padding-top : 120px;
+}
+
+a {
+    font-weight : bold;
+    text-decoration : none;
+    color : #696e73;
+}
+
+a:hover  {
+    color: #fa960a; 
+}
+
+/* General link labels */
+a .link-label {
+    font-weight : normal;
+}
+
+
+#branding {
+    position: absolute;
+    top : 0px;
+    left : 0px;
+    z-index : 2;
+}
+
+.intro-header {
+    background-image : url(../graphics/brandingImage.png);
+    position: absolute;
+    top : 0px;
+    left : 0px;
+    width : 182px;
+    height: 80px;
+    overflow:hidden;
+    clip:rect(0px, 180px, 80px, 0px);
+    padding-top : 120px;
+    z-index : 2;
+}
+
+div .content-group { background-color: transparent;}
+div#rss-news {
+	display: none;
+}
+
+/* 
+ * Lay out the navigation links 
+ * (Root page does something similar for its navigation)
+ */
+#navigation-links {
+    position : absolute;
+    left : 0px;
+    top : 0px;
+    padding-left: 175px;
+    height : 118px;
+    background-image : url("../graphics/navBackground.png");
+    z-index : 1;
+}
+
+#navigation-links a {
+    text-align : left;
+    height : 64px;
+    float : left;
+    margin-left : 10px;
+    position : relative;
+    text-align : center;
+    margin-top: 27px;
+}
+
+#navigation-links a img {
+    height : 32px;
+    width : 32px;
+    vertical-align : center;
+    horizontal-align : center; 
+    display : block;
+    margin-top : 5px;
+    margin-bottom : 0px;
+    margin-left : auto;
+    margin-right : auto;
+    background-position: center center;
+    background-repeat: norepeat;
+}
+
+#action-links a {
+    float : right;
+    
+    height : 70px;
+    width : auto;
+    vertical-align : center;
+    horizontal-align : center; 
+    display : block;
+    margin-top : 32px;
+    margin-bottom : 0px;
+    margin-left : auto;
+    margin-right : 20px;
+    background-position: center center;
+    background-repeat: norepeat;
+    overflow:hidden;
+    
+}
+
+/* images the navigation-links  */
+#navigation-links a#overview img { 
+    background-image : url(../graphics/icons/overview_nav.png); 
+}
+
+#navigation-links a#tutorials img { 
+    background-image : url(../graphics/icons/tutorials_nav.png); 
+}
+
+#navigation-links a#whatsnew img { 
+    background-image : url(../graphics/icons/whatsnew_nav.png); 
+}
+
+#navigation-links a#webresources img { 
+    background-image : url(../graphics/icons/webresources_nav.png); 
+}
+
+#navigation-links a#workbench img { 
+    background-image : url(../graphics/icons/workbench_nav.png); 
+}
+
+/**
+ * format the page content elements
+ */
+ 
+ #page-content #top-left {
+  border: none; float: left; margin: 0px; padding: 0px; width: 49%;
+  clear: left;
+}
+#page-content #top-right {
+  border: none; float: right; margin: 0px; padding: 0px; width: 49%;
+  clear: right;
+}
+/* top-bottom divider - runs the entire width to ensure
+ * bottom boxes start at the same y
+ */
+#page-content #content-divider {
+  border: none; float: none; margin: 0; padding: 0px; width: 100%;
+  clear: both;
+}
+
+#page-content #bottom-left {
+  border: none; float: left; margin: 0px; padding: 0px; width: 49%;
+  clear: left;
+}
+#page-content #bottom-right {
+  border: none; float: right; margin: 0px; padding: 0px; width: 49%;
+  clear: right;
+}
+
+#page-content #content-header H4, .page-description {
+    text-align : left;
+    margin-right : 10px;
+    float : none;
+    clear : both;
+}
+
+#page-content * > a {
+    vertical-align : middle; 
+}
+
+#page-content * a img {
+    height : 48px;
+    width : 48px;
+    vertical-align : middle;
+}   
+
+#page-content * a .link-label {
+    display : block;
+    position : relative;
+    top : -50px;
+    left : 60px;
+    margin-right: 60px;
+}
+
+#page-content * a > .link-label { left: 65px; }
+
+#page-content * a p  {
+    display : block;
+    position : relative;
+    top : -45px;
+    margin-bottom: -25px;
+}
+
+#page-content * a p .text {
+    display : block;
+    position : relative;
+    left : 53px;
+    margin-right: 53px;
+}
+
+#page-content * a p > .text { left: 56px; }
+
+#page-content * a:hover { border-right : 5px; }
+
+.content-group {
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    float : none;
+    clear : both;
+    text-align: left;
+}
+
+.content-link .link-label {
+    font-family: Verdana, Arial, Helvetica; 
+    font-weight: bold; 
+    line-height:1.5;
+    color: #696e73;
+}
+
+.content-link:hover .link-label {
+    color: #fa960a;
+}
+
+.content-link .text {
+    font-weight: normal; 
+    line-height: 1;
+}
