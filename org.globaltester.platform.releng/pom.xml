@@ -26,6 +26,7 @@
 		<module>../../org.globaltester.logging.legacy/org.globaltester.logging.legacy.ui.test</module>
 		<module>../../org.globaltester.platform/org.globaltester.platform.feature</module>
 		<module>../../org.globaltester.platform/org.globaltester.platform</module>
+		<module>../../org.globaltester.platform/org.globaltester.platform.doc</module>
 		<module>../../org.globaltester.platform/org.globaltester.platform.site</module>
 		<module>../../org.globaltester.platform/org.globaltester.platform.product</module>
 		<module>../../org.globaltester.smartcardshell/org.globaltester.smartcardshell</module>
