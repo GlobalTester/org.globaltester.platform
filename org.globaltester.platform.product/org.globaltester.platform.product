@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?pde version="3.5"?>
 
-<product name="GlobalTester Platform" uid="org.globaltester.platform.product" id="org.globaltester.platform.product" application="org.eclipse.ui.ide.workbench" version="3.0.2" useFeatures="true" includeLaunchers="true">
+<product name="GlobalTester Platform" uid="org.globaltester.platform.product" id="org.globaltester.platform.product" application="org.eclipse.ui.ide.workbench" version="3.0.3" useFeatures="true" includeLaunchers="true">
 
    <aboutInfo>
       <image path="/org.globaltester.platform/icons/about.png"/>

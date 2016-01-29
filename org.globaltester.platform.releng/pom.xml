@@ -5,7 +5,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.hjp.globaltester</groupId>
 	<artifactId>org.globaltester.platform.releng</artifactId>
-	<version>3.0.2</version>
+	<version>3.0.3</version>
 	<packaging>pom</packaging>
 	<modules>
 		<module>../../org.globaltester.base/org.globaltester.base</module>

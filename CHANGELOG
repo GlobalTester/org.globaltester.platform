@@ -3,3 +3,60 @@ Version 3.0.3 (29.01.2016)
 * Repo migration
 
 
+* org.globaltester.base contained in version 2.6.1
+
+* org.globaltester.cardconfiguration contained in version 3.0.3
+
+* org.globaltester.core contained in version 3.0.3
+
+* org.globaltester.cryptoprovider contained in version 0.8.1
+
+* org.globaltester.junit contained in version 3.0.1
+
+* org.globaltester.logging.legacy contained in version 2.4.2
+
+* org.globaltester.smartcardshell contained in version 3.0.3
+
+* org.globaltester.smartcardshell.protocols.bac contained in version 3.0.3
+
+* org.globaltester.smartcardshell.protocols.icao9303 contained in version 3.0.3
+
+* org.globaltester.smartcardshell.protocols.iso7816 contained in version 3.0.3
+
+* org.globaltester.smartcardshell.protocols.securemessaging contained in version 3.0.3
+
+* org.globaltester.testrunner contained in version 3.0.3
+
+* org.globaltester.testspecification contained in version 3.0.3
+
+* org.globaltester.testspec.sample contained in version 3.0.3
+
+* org.globaltester.base contained in version 2.6.1
+
+* org.globaltester.cardconfiguration contained in version 3.0.3
+
+* org.globaltester.core contained in version 3.0.3
+
+* org.globaltester.cryptoprovider contained in version 0.8.1
+
+* org.globaltester.junit contained in version 3.0.1
+
+* org.globaltester.logging.legacy contained in version 2.4.2
+
+* org.globaltester.smartcardshell contained in version 3.0.3
+
+* org.globaltester.smartcardshell.protocols.bac contained in version 3.0.3
+
+* org.globaltester.smartcardshell.protocols.icao9303 contained in version 3.0.3
+
+* org.globaltester.smartcardshell.protocols.iso7816 contained in version 3.0.3
+
+* org.globaltester.smartcardshell.protocols.securemessaging contained in version 3.0.3
+
+* org.globaltester.testrunner contained in version 3.0.3
+
+* org.globaltester.testspecification contained in version 3.0.3
+
+* org.globaltester.testspec.sample contained in version 3.0.3
+
+
