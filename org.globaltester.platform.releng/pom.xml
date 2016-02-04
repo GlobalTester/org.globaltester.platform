@@ -48,5 +48,6 @@
 		<module>../../org.globaltester.testspecification/org.globaltester.testspecification.doc</module>
 		<module>../../org.globaltester.testspecification/org.globaltester.testspecification.export.hjp</module>
 		<module>../../org.globaltester.testspecification/org.globaltester.testspecification.ui</module>
+		<module>../../org.globaltester.simulator/org.globaltester.simulator</module>
 	</modules>
 </project>
