@@ -23,9 +23,6 @@
             file="toc/user/overview.xml">
       </toc>
       <toc
-            file="toc/user/support.xml">
-      </toc>
-      <toc
             file="toc/user/whatsnew.xml">
       </toc>
       <!--
