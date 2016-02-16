@@ -6,7 +6,7 @@
 
 		<group style-id="content-group" id="content-group">
 			<link style-id="content-link" label="GlobalTester basics"
-				url="http://org.eclipse.ui.intro/showHelpTopic?id=/org.globaltester.core.doc/html/user/overview.html"
+				url="http://org.eclipse.ui.intro/showHelpTopic?id=/org.globaltester.platform.doc/html/user/overview.html"
 				id="gtBasics">
 				<text>Learn about basic GlobalTester concepts</text>
 			</link>
