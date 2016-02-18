@@ -3,5 +3,9 @@
 	background-image : url(../graphics/icons/whatsnew.png); 
 	width : 48px;
 	height: 48px;
-	margin-top : 12px;
+	margin-top : 5px;
+}
+
+body {
+    padding-top : 160px;
 }
