@@ -4,7 +4,7 @@
       label="GlobalTester Platform"
       version="3.0.4"
       provider-name="HJP Consulting GmbH"
-      plugin="org.globaltester.core">
+      plugin="org.globaltester.platform">
 
    <description url="http://www.globaltester.org">
       GlobalTester offers an integrated test environment with a holistic
