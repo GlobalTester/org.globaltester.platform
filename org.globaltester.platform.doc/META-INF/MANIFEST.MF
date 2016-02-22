@@ -4,3 +4,4 @@ Bundle-Name: GT Platform Doc
 Bundle-SymbolicName: org.globaltester.platform.doc;singleton:=true
 Bundle-Version: 3.0.4
 Bundle-Vendor: HJP Consulting GmbH
+Require-Bundle: org.globaltester.core.doc;bundle-version="3.0.4"
