@@ -7,18 +7,19 @@ body {
 	
 }
 
-H1, H2, H3, H4 { color : #fa960a; }
+H1, H2, H3, H4 { color : #696e73; }
 
 p { color : #696e73; }
 
-html, body {    
-    overflow : auto;
-    overflow-clip: rect(0, auto, auto, 0);
+body {
+	min-width: 750px;
     background-color : transparent;
     background-image : url("../graphics/background.png");
-    background-position : top left;
+    background-position: 0px -10px;
     background-repeat : no-repeat;
-    padding-top : 120px;
+    padding-top : 240px;
+    margin-left : 40px;
+    margin-right : 40px;
 }
 
 a {
@@ -51,7 +52,6 @@ a .link-label {
     left : 0px;
     width : 182px;
     height: 80px;
-    overflow:hidden;
     clip:rect(0px, 180px, 80px, 0px);
     padding-top : 120px;
     z-index : 2;
@@ -67,9 +67,11 @@ div#rss-news {
  * (Root page does something similar for its navigation)
  */
 #navigation-links {
+	min-width: 700px;
     position : absolute;
     left : 0px;
     top : 0px;
+    width : calc(100% - 175px);
     padding-left: 175px;
     height : 118px;
     background-image : url("../graphics/navBackground.png");
@@ -78,9 +80,10 @@ div#rss-news {
 
 #navigation-links a {
     text-align : left;
+    top : 5px;
     height : 64px;
     float : left;
-    margin-left : 10px;
+    margin-left : 40px;
     position : relative;
     text-align : center;
     margin-top: 27px;
