@@ -4,6 +4,8 @@ Version 3.0.5 (29.02.2016)
 * Fix welcome screen layout
 * Code maintenance
 
+* org.globaltester.core updated to version 3.0.5
+  * changed file endings from xml to .gt, .gtsuite or .gtcampaign
 
 Version 3.0.4 (18.02.2016)
 
