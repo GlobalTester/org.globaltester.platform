@@ -41,7 +41,6 @@
       </win>
    </launcher>
 
-
    <vm>
    </vm>
 
@@ -83,7 +82,6 @@ then you will need a commercial license from us (Dual-license).
       <feature id="org.eclipse.ecf.core.ssl.feature"/>
       <feature id="org.eclipse.ecf.filetransfer.ssl.feature"/>
       <feature id="org.eclipse.e4.rcp"/>
-      <feature id="org.eclipse.wst.jsdt.feature"/>
    </features>
 
    <configurations>
