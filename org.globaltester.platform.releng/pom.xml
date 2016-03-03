@@ -7,15 +7,12 @@
   <packaging>pom</packaging>
   <modules>
     <module>../../org.globaltester.base/org.globaltester.base</module>
+	<module>../../org.globaltester.base/org.globaltester.base.doc</module>
     <module>../../org.globaltester.base/org.globaltester.base.test</module>
+	<module>../../org.globaltester.base/org.globaltester.base.ui</module>		
     <module>../../org.globaltester.cardconfiguration/org.globaltester.cardconfiguration</module>
     <module>../../org.globaltester.cardconfiguration/org.globaltester.cardconfiguration.test</module>
     <module>../../org.globaltester.cardconfiguration/org.globaltester.cardconfiguration.ui</module>
-    <module>../../org.globaltester.core/org.globaltester.core</module>
-    <module>../../org.globaltester.core/org.globaltester.core.test</module>
-    <module>../../org.globaltester.core/org.globaltester.core.doc</module>
-    <module>../../org.globaltester.core/org.globaltester.core.ui</module>
-    <module>../../org.globaltester.core/org.globaltester.core.ui.test</module>
     <module>../../org.globaltester.cryptoprovider/org.globaltester.cryptoprovider</module>
     <module>../../org.globaltester.cryptoprovider/org.globaltester.cryptoprovider.bc</module>
     <module>../../org.globaltester.junit/org.globaltester.junit</module>
@@ -47,5 +44,9 @@
     <module>../../org.globaltester.testspecification/org.globaltester.testspecification.export.hjp</module>
     <module>../../org.globaltester.testspecification/org.globaltester.testspecification.ui</module>
     <module>../../org.globaltester.simulator/org.globaltester.simulator</module>
+	<module>../../org.globaltester.lib.apache.fop/org.globaltester.lib.apache.fop</module>
+	<module>../../org.globaltester.lib.apache.fop/org.globaltester.lib.apache.fop.test</module>
+	<module>../../org.globaltester.lib.apache.xml/org.globaltester.lib.apache.xml</module>
+	<module>../../org.globaltester.lib.jdom/org.globaltester.lib.jdom</module>	
   </modules>
 </project>
