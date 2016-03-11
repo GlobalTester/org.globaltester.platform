@@ -52,7 +52,7 @@ then you will need a commercial license from us (Dual-license).
          unpack="false"/>
 
    <plugin
-         id="org.globaltester.core"
+         id="org.globaltester.base"
          download-size="0"
          install-size="0"
          version="0.0.0"
@@ -195,13 +195,13 @@ then you will need a commercial license from us (Dual-license).
          unpack="false"/>
 
    <plugin
-         id="org.globaltester.core.doc"
+         id="org.globaltester.base.doc"
          download-size="0"
          install-size="0"
          version="0.0.0"/>
 
    <plugin
-         id="org.globaltester.core.ui"
+         id="org.globaltester.base.ui"
          download-size="0"
          install-size="0"
          version="0.0.0"
@@ -232,5 +232,26 @@ then you will need a commercial license from us (Dual-license).
          download-size="0"
          install-size="0"
          version="0.0.0"/>
+
+   <plugin
+         id="org.globaltester.lib.apache.fop"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.globaltester.lib.apache.xml"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.globaltester.lib.jdom"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
 
 </feature>
