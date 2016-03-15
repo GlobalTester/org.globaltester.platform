@@ -20,7 +20,7 @@
       </vmArgsMac>
    </launcherArgs>
 
-   <windowImages i16="icons/gt16.png" i32="icons/gt32.png" i64="icons/gt64.png"/>
+   <windowImages i16="/org.globaltester.platform/icons/gt16.png" i32="/org.globaltester.platform/icons/gt32.png" i48="/org.globaltester.platform/icons/gt48.png" i64="/org.globaltester.platform/icons/gt64.png" i256="/org.globaltester.platform/icons/gt256.png"/>
 
    <splash
       location="org.globaltester.platform"
@@ -28,6 +28,7 @@
       startupMessageRect="5,260,435,20"
       startupForegroundColor="000000" />
    <launcher name="GlobalTester">
+      <linux icon="../org.globaltester.platform/icons/globaltester.xpm"/>
       <solaris/>
       <win useIco="true">
          <bmp
