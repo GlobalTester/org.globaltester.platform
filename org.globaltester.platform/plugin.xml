@@ -10,7 +10,7 @@
             name="GlobalTester Platform">
          <property
                name="windowImages"
-               value="icons/gt16.png,icons/gt32.png,icons/gt64.png">
+               value="icons/gt16.png,icons/gt32.png,icons/gt48.png,icons/gt64.png,icons/gt256.png">
          </property>
          <property
                name="appName"
