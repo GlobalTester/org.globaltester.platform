@@ -20,7 +20,6 @@
     <module>../../org.globaltester.logging.legacy/org.globaltester.logging.legacy</module>
 	<module>../../org.globaltester.logging.legacy/org.globaltester.logging.legacy.doc</module>
     <module>../../org.globaltester.logging.legacy/org.globaltester.logging.legacy.ui</module>
-    <module>../../org.globaltester.logging.legacy/org.globaltester.logging.legacy.ui.test</module>
     <module>../../org.globaltester.platform/org.globaltester.platform.feature</module>
     <module>../../org.globaltester.platform/org.globaltester.platform</module>
     <module>../../org.globaltester.platform/org.globaltester.platform.doc</module>
