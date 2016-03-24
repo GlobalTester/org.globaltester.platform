@@ -35,6 +35,9 @@
     <module>../../org.globaltester.smartcardshell.protocols.iso7816/org.globaltester.smartcardshell.protocols.iso7816</module>
     <module>../../org.globaltester.smartcardshell.protocols.securemessaging/org.globaltester.smartcardshell.protocols.securemessaging</module>
     <module>../../org.globaltester.smartcardshell.protocols.securemessaging/org.globaltester.smartcardshell.protocols.securemessaging.ui</module>
+    <module>../../org.globaltester.testmanager/org.globaltester.testmanager</module>
+    <module>../../org.globaltester.testmanager/org.globaltester.testmanager.doc</module>
+    <module>../../org.globaltester.testmanager/org.globaltester.testmanager.ui</module>
     <module>../../org.globaltester.testrunner/org.globaltester.testrunner</module>
     <module>../../org.globaltester.testrunner/org.globaltester.testrunner.test</module>
     <module>../../org.globaltester.testrunner/org.globaltester.testrunner.doc</module>
@@ -45,6 +48,8 @@
     <module>../../org.globaltester.testspecification/org.globaltester.testspecification.doc</module>
     <module>../../org.globaltester.testspecification/org.globaltester.testspecification.export.hjp</module>
     <module>../../org.globaltester.testspecification/org.globaltester.testspecification.ui</module>
+    <module>../../org.globaltester.scriptrunner/org.globaltester.scriptrunner</module>
+    <module>../../org.globaltester.scriptrunner/org.globaltester.scriptrunner.ui</module>
     <module>../../org.globaltester.simulator/org.globaltester.simulator</module>
 	<module>../../org.globaltester.lib.apache.fop/org.globaltester.lib.apache.fop</module>
 	<module>../../org.globaltester.lib.apache.fop/org.globaltester.lib.apache.fop.test</module>
