@@ -7,8 +7,7 @@ Launch the GlobalTester Platform product and check the following
  - [ ] the executable has the GT icon
  - [ ] the GT splash screen is shown on startup
  - [ ] the GT welcome page is correctly formatted
- - [ ] check the existence of the buttons "Create a new TestCampaign from selection and execute it"
-       and "Create a new TestCampaign from selection and open it"
+ - [ ] check the existence of the buttons for creating and executing test campaigns
  - [ ] the GlobalTester perspective is correct
  - [ ] GlobalTester Platform feature is shown in the installation details
  - [ ] version numbers are correct
