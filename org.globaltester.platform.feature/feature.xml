@@ -310,4 +310,18 @@ then you will need a commercial license from us (Dual-license).
          version="0.0.0"
          unpack="false"/>
 
+   <plugin
+         id="org.globaltester.protocol"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.globaltester.protocol.ui"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
 </feature>
