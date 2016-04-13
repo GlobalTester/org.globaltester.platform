@@ -38,14 +38,14 @@ then you will need a commercial license from us (Dual-license).
    </license>
 
    <plugin
-         id="org.globaltester.cardconfiguration"
+         id="org.globaltester.sampleconfiguration"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
 
    <plugin
-         id="org.globaltester.cardconfiguration.ui"
+         id="org.globaltester.sampleconfiguration.ui"
          download-size="0"
          install-size="0"
          version="0.0.0"

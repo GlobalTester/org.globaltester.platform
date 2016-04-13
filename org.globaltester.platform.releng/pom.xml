@@ -10,9 +10,9 @@
 	<module>../../org.globaltester.base/org.globaltester.base.doc</module>
     <module>../../org.globaltester.base/org.globaltester.base.test</module>
 	<module>../../org.globaltester.base/org.globaltester.base.ui</module>		
-    <module>../../org.globaltester.cardconfiguration/org.globaltester.cardconfiguration</module>
-    <module>../../org.globaltester.cardconfiguration/org.globaltester.cardconfiguration.test</module>
-    <module>../../org.globaltester.cardconfiguration/org.globaltester.cardconfiguration.ui</module>
+    <module>../../org.globaltester.sampleconfiguration/org.globaltester.sampleconfiguration</module>
+    <module>../../org.globaltester.sampleconfiguration/org.globaltester.sampleconfiguration.test</module>
+    <module>../../org.globaltester.sampleconfiguration/org.globaltester.sampleconfiguration.ui</module>
     <module>../../org.globaltester.cryptoprovider/org.globaltester.cryptoprovider</module>
     <module>../../org.globaltester.cryptoprovider/org.globaltester.cryptoprovider.bc</module>
     <module>../../org.globaltester.cryptoprovider/org.globaltester.cryptoprovider.bc.legacy_1_46</module>
