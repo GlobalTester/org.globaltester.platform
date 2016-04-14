@@ -29,6 +29,9 @@
     <module>../../org.globaltester.platform/org.globaltester.platform.product</module>
     <module>../../org.globaltester.protocol/org.globaltester.protocol</module>
     <module>../../org.globaltester.protocol/org.globaltester.protocol.ui</module>
+    <module>../../org.globaltester.service/org.globaltester.service</module>
+    <module>../../org.globaltester.service/org.globaltester.service.doc</module>
+    <module>../../org.globaltester.service/org.globaltester.service.ui</module>
     <module>../../org.globaltester.smartcardshell/org.globaltester.smartcardshell</module>
     <module>../../org.globaltester.smartcardshell/org.globaltester.smartcardshell.test</module>
     <module>../../org.globaltester.smartcardshell/org.globaltester.smartcardshell.doc</module>
