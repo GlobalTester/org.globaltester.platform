@@ -59,6 +59,6 @@
 	<module>../../org.globaltester.lib.apache.fop/org.globaltester.lib.apache.fop</module>
 	<module>../../org.globaltester.lib.apache.fop/org.globaltester.lib.apache.fop.test</module>
 	<module>../../org.globaltester.lib.apache.xml/org.globaltester.lib.apache.xml</module>
-	<module>../../org.globaltester.lib.jdom/org.globaltester.lib.jdom</module>	
+	<module>../../org.globaltester.lib.domparser/org.globaltester.lib.domparser</module>	
   </modules>
 </project>
