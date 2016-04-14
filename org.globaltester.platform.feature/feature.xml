@@ -234,7 +234,7 @@ then you will need a commercial license from us (Dual-license).
          unpack="false"/>
 
    <plugin
-         id="org.globaltester.lib.jdom"
+         id="org.globaltester.lib.domparser"
          download-size="0"
          install-size="0"
          version="0.0.0"
