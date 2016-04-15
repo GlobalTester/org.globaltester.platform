@@ -12,6 +12,7 @@
     <module>../../org.globaltester.base/org.globaltester.base.test</module>
 	<module>../../org.globaltester.base/org.globaltester.base.ui</module>		
     <module>../../org.globaltester.sampleconfiguration/org.globaltester.sampleconfiguration</module>
+    <module>../../org.globaltester.sampleconfiguration/org.globaltester.sampleconfiguration.doc</module>
     <module>../../org.globaltester.sampleconfiguration/org.globaltester.sampleconfiguration.test</module>
     <module>../../org.globaltester.sampleconfiguration/org.globaltester.sampleconfiguration.ui</module>
     <module>../../org.globaltester.cryptoprovider/org.globaltester.cryptoprovider</module>
