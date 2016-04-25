@@ -214,12 +214,6 @@ then you will need a commercial license from us (Dual-license).
          unpack="false"/>
 
    <plugin
-         id="org.globaltester.logging.legacy.doc"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"/>
-
-   <plugin
          id="org.globaltester.lib.apache.fop"
          download-size="0"
          install-size="0"
@@ -284,13 +278,6 @@ then you will need a commercial license from us (Dual-license).
 
    <plugin
          id="org.globaltester.logging.logfileeditor.ui"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="org.globaltester.logging.legacy.ui"
          download-size="0"
          install-size="0"
          version="0.0.0"
