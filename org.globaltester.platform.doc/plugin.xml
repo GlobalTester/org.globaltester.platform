@@ -17,13 +17,13 @@
             file="toc/user/samples.xml">
       </toc>
       <toc
-            file="toc/user/tasks.xml">
-      </toc>
-      <toc
             file="toc/user/overview.xml">
       </toc>
       <toc
             file="toc/user/whatsnew.xml">
+      </toc>
+      <toc
+            file="toc/user/install.xml">
       </toc>
       <!--
       <toc
