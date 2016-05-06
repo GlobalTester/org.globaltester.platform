@@ -2,7 +2,7 @@
 <feature
       id="org.globaltester.platform.feature"
       label="GlobalTester Platform"
-      version="3.0.5.qualifier"
+      version="3.1.0.qualifier"
       provider-name="HJP Consulting GmbH"
       plugin="org.globaltester.platform">
 
