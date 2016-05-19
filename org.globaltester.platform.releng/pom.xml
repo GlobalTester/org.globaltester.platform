@@ -27,6 +27,7 @@
     <module>../../org.globaltester.platform/org.globaltester.platform.feature</module>
     <module>../../org.globaltester.platform/org.globaltester.platform</module>
     <module>../../org.globaltester.platform/org.globaltester.platform.doc</module>
+    <module>../../org.globaltester.platform/org.globaltester.platform.integrationtest</module>
     <module>../../org.globaltester.platform/org.globaltester.platform.site</module>
     <module>../../org.globaltester.platform/org.globaltester.platform.product</module>
     <module>../../org.globaltester.protocol/org.globaltester.protocol</module>
@@ -43,6 +44,7 @@
     <module>../../org.globaltester.smartcardshell.protocols.iso7816/org.globaltester.smartcardshell.protocols.iso7816</module>
     <module>../../org.globaltester.smartcardshell.protocols.securemessaging/org.globaltester.smartcardshell.protocols.securemessaging</module>
     <module>../../org.globaltester.smartcardshell.protocols.securemessaging/org.globaltester.smartcardshell.protocols.securemessaging.ui</module>
+    <module>../../org.globaltester.swtbot/org.globaltester.swtbot</module>
     <module>../../org.globaltester.testrunner/org.globaltester.testrunner</module>
     <module>../../org.globaltester.testrunner/org.globaltester.testrunner.test</module>
     <module>../../org.globaltester.testrunner/org.globaltester.testrunner.doc</module>
