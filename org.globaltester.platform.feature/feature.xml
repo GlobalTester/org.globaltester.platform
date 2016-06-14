@@ -338,4 +338,18 @@ then you will need a commercial license from us (Dual-license).
          install-size="0"
          version="0.0.0"/>
 
+   <plugin
+         id="org.globaltester.control"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.globaltester.control.soap"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
 </feature>
