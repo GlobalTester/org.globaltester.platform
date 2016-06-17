@@ -15,6 +15,11 @@
     <module>../../org.globaltester.sampleconfiguration/org.globaltester.sampleconfiguration.doc</module>
     <module>../../org.globaltester.sampleconfiguration/org.globaltester.sampleconfiguration.test</module>
     <module>../../org.globaltester.sampleconfiguration/org.globaltester.sampleconfiguration.ui</module>
+    <module>../../org.globaltester.control/org.globaltester.control</module>
+    <module>../../org.globaltester.control.soap/org.globaltester.control.soap</module>
+    <module>../../org.globaltester.control.soap/org.globaltester.control.soap.integrationtest</module>
+    <module>../../org.globaltester.control.soap/org.globaltester.control.soap.sample.client</module>
+    <module>../../org.globaltester.control.soap/org.globaltester.control.soap.sample.service</module>
     <module>../../org.globaltester.cryptoprovider/org.globaltester.cryptoprovider</module>
     <module>../../org.globaltester.cryptoprovider/org.globaltester.cryptoprovider.bc</module>
     <module>../../org.globaltester.cryptoprovider/org.globaltester.cryptoprovider.bc.legacy_1_46</module>
