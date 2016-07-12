@@ -130,4 +130,9 @@
             productId="org.globaltester.platform.product">
       </introProductBinding>
    </extension>
+   <extension point="org.eclipse.ui.startup">
+	<startup class="org.globaltester.platform.Initializer">
+	</startup>
+   </extension> 
+ 
 </plugin>
