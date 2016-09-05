@@ -9,7 +9,7 @@ node {
   ]
   for (String curRepo : repos) {
     echo curRepo
-/*
+
     checkout([$class: 'GitSCM', 
       branches: [[name: "${env.BRANCH_NAME}"]],
       doGenerateSubmoduleConfigurations: false,
@@ -17,7 +17,7 @@ node {
       submoduleCfg: [],
       userRemoteConfigs: [[credentialsId: 'ccaa54ad-8940-4687-aebf-64979d3094fb', url: "git@git.globaltester.org:${curRepo}"]]
     ])
-*/
+
   }
 
 
