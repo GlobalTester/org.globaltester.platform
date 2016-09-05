@@ -21,7 +21,7 @@ node {
   }
 
 
-String fileContents = new File('org.globaltester.platform/org.globaltester.platform.releng/pom.xml').text
+String fileContents = new File(build.workspace.toString() + 'org.globaltester.platform/org.globaltester.platform.releng/pom.xml').text
 echo fileContents
 
 
