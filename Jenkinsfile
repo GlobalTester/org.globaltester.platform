@@ -5,7 +5,8 @@ node {
    "org.globaltester.cryptoprovider",
    "org.globaltester.lib.domparser",
    "org.globaltester.lib.jmockit",
-   "org.globaltester.parent"
+   "org.globaltester.parent",
+   "org.globaltester.platform"
   ]
   for (String curRepo : repos) {
     echo curRepo
@@ -21,7 +22,7 @@ node {
   }
 
 
-String fileContents = new File(env.build.workspace.toString() + 'org.globaltester.platform/org.globaltester.platform.releng/pom.xml').text
+String fileContents = new File('org.globaltester.platform/org.globaltester.platform.releng/pom.xml').text
 echo fileContents
 
 
