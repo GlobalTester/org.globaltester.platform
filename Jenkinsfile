@@ -20,6 +20,12 @@ node {
 */
   }
 
+
+String fileContents = new File('org.globaltester.platform/org.globaltester.platform.releng/pom.xml').text
+echo fileContents
+
+
+
 /*
   stage 'Build'
   def mvnHome = tool 'M305'
