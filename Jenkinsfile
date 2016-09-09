@@ -30,6 +30,10 @@ node {
 
   stage 'Build'
   def mvnHome = tool 'M305'
-  sh "cd ${PROJECT_NAME}/${PROJECT_NAME}.releng/ && ${mvnHome}/bin/mvn -Dmaven.test.failure.ignore clean verify"
+  def BUILDDIR = sh returnStdout: true, script: 'mktemp -d'
+  BUILDDIR = BUILDDIR.trim()
+  sh "cp -a * ${BUILDDIR}"
+  sh "cd ${BUILDDIR}/${PROJECT_NAME}/${PROJECT_NAME}.releng/ && ${mvnHome}/bin/mvn -Dmaven.test.failure.ignore clean verify"
+  sh "rm -r ${BUILDDIR}"
 
 }
