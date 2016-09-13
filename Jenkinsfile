@@ -32,10 +32,14 @@ node {
   def mvnHome = tool 'M305'
   def BUILDDIR = sh returnStdout: true, script: 'mktemp -d'
   BUILDDIR = BUILDDIR.trim()
-  sh "cp -a * ${BUILDDIR}"
+  sh "mv * ${BUILDDIR}"
   wrap([$class: 'Xvnc', takeScreenshot: false, useXauthority: true]) {
     sh "cd ${BUILDDIR}/${PROJECT_NAME}/${PROJECT_NAME}.releng/ && ${mvnHome}/bin/mvn -Dmaven.test.failure.ignore clean verify"
   }
+  sh "mv ${BUILDDIR}/* ."
   sh "rm -r ${BUILDDIR}"
+
+  stage "Collect test results"
+  junit '**/TEST*.xml'
 
 }
