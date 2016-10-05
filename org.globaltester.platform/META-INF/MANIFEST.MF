@@ -6,7 +6,7 @@ Bundle-Version: 3.1.0.qualifier
 Bundle-Activator: org.globaltester.platform.Activator
 Bundle-RequiredExecutionEnvironment: JavaSE-1.8
 Bundle-ActivationPolicy: lazy
-Bundle-Vendor: HJP Consulting GmbH
+Bundle-Vendor: secunet Security Networks AG
 Bundle-Localization: plugin
 Require-Bundle: org.eclipse.help.ui;bundle-version="4.0.100",
  org.eclipse.ui.ide,
