@@ -12,9 +12,9 @@
 			</link>
 		</group>
 
-		<group style-id="content-group" id="hjpconsultingcom-introLink-group">
-			<link label="HJP-Consulting.com" url="http://www.hjp-consulting.com"
-				id="hjpconsultingcom" style-id="content-link">
+		<group style-id="content-group" id="secunetcom-introLink-group">
+			<link label="secunet.com" url="http://www.secunet.com"
+				id="secunetcom" style-id="content-link">
 				<text>... the company behind GlobalTester.</text>
 			</link>
 		</group>
