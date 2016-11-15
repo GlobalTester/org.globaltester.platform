@@ -16,7 +16,9 @@
     <module>../../org.globaltester.sampleconfiguration/org.globaltester.sampleconfiguration.test</module>
     <module>../../org.globaltester.sampleconfiguration/org.globaltester.sampleconfiguration.ui</module>
     <module>../../org.globaltester.control/org.globaltester.control</module>
+    <module>../../org.globaltester.control/org.globaltester.control.doc</module>
     <module>../../org.globaltester.control.soap/org.globaltester.control.soap</module>
+    <module>../../org.globaltester.control.soap/org.globaltester.control.soap.doc</module>
     <module>../../org.globaltester.control.soap/org.globaltester.control.soap.integrationtest</module>
     <module>../../org.globaltester.control.soap/org.globaltester.control.soap.sample.client</module>
     <module>../../org.globaltester.control.soap/org.globaltester.control.soap.sample.service</module>
