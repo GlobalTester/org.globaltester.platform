@@ -29,7 +29,7 @@ a {
 }
 
 a:hover  {
-    color: #fa960a; 
+    color: #e3043c; 
 }
 
 /* General link labels */
@@ -234,7 +234,7 @@ div#rss-news {
 }
 
 .content-link:hover .link-label {
-    color: #fa960a;
+    color: #e3043c;
 }
 
 .content-link .text {
