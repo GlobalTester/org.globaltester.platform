@@ -3,7 +3,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.secunet.globaltester</groupId>
   <artifactId>org.globaltester.platform.releng</artifactId>
-  <version>3.1.0-SNAPSHOT</version>
+  <version>3.2.0-SNAPSHOT</version>
   <packaging>pom</packaging>
   <modules>
     <module>../../org.globaltester.dev/org.globaltester.dev.tools</module>
