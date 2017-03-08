@@ -2,6 +2,6 @@
 <?NLS TYPE="org.eclipse.help.toc"?>
 
 <toc label="GlobalTester Overview" link_to="/org.globaltester.base.doc/toc/user/toc.xml#before_early">
-   <topic href="html/user/overview_gt3.html" label="GlobalTester Platform">
+   <topic href="html/user/overview.html" label="GlobalTester Platform">
    </topic> 
 </toc>
