@@ -12,7 +12,6 @@ Launch the GlobalTester Platform product and check the following
  - [ ] GlobalTester Platform feature is shown in the installation details
  - [ ] version numbers are correct
 
-
 1. [ ] __Check the welcome screen__  
  - [ ] Select the "Overview" part of the welcome screen
      - [ ] Check that the "GlobalTester basics" link is valid and opens the correct help page
@@ -29,6 +28,23 @@ Launch the GlobalTester Platform product and check the following
      - [ ] Check that the following links are valid and opens the correct web pages
          - [ ] "GlobalTester.org"
          - [ ] "secunet.com"
+         
+1. [ ] __Create sample configurations__
+Use a workspace without sample configurations
+ - [ ] Create a sample configuration during test execution
+     - [ ] Execute a test case
+         - [ ] In the sample configuration selection dialog click on "New"
+         - [ ] Enter a project name
+         - [ ] Configure some setting in the protocol tabs
+     - [ ] Verify that the correctly named sample config is created in the workspace and used for the test execution
+ - [ ] Open the new sample configuration wizard using the File menu
+     - [ ] Open the new sample configuration wizard using the File menu
+         - [ ] File -> new -> other ... -> GlobalTester -> SampleConfiguration
+         - [ ] Enter a project name
+         - [ ] Configure some setting in the protocol tabs
+         - [ ] Click "Finish"
+     - [ ] Verify that the correctly named sample config is created in the workspace
+     
          
 
 1. [ ] __Install and Run GlobalTester Platform Feature__ 
