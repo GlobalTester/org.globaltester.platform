@@ -1,3 +1,7 @@
+Version 3.2.1 (08.03.2017)
+
+* Several bugfixes
+
 Version 3.2.0 (06.03.2017)
 
 * Red is the new orange - migration to secunet
@@ -6,7 +10,6 @@ Version 3.2.0 (06.03.2017)
   * RF PROTOCOL AND APPLICATION TEST STANDARD FOR EMRTD - PART 3 - TESTS FOR APPLICATION PROTOCOL AND LOGICAL DATA STRUCTURE to version 2.10 (2016-07-07)
   * RF and Protocol Testing Part 4 - Conformity test for inspection systems to version 2.10, 22.06.2016
 * Several bugfixes
-
 
 Version 3.1.0 (06.05.2016)
 
