@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <introContent>
-
 	<extensionContent id="globaltesterorg-introExtension"
-		style="css/tutorials.css" name="GlobalTester.org" path="tutorials/@">
+		style="css/tutorials.css" path="tutorials/@">
 		<group label="Getting started with GlobalTester" style-id="content-group"
 			id="globaltesterorg-introLink-group">
 			<link
@@ -13,10 +12,11 @@
 			</link>
 			<link
 				url="http://org.eclipse.ui.intro/showStandby?partId=org.eclipse.platform.cheatsheet&amp;input=org.globaltester.testrunner.doc.cheatsheet.executeTestCases"
-				label="Execute TestCases" id="runTests" style-id="content-link">
+				label="Execute TestCases as a TestCampaign" id="runTests" style-id="content-link">
 				<text>Learn how to execute TestCases and evaluate their results.
 				</text>
 			</link>
+			<anchor id="globaltesterorg-introLinkAnchor"/>
 			<link
 				url="http://org.eclipse.ui.intro/showStandby?partId=org.eclipse.platform.cheatsheet&amp;input=org.globaltester.testspecification.doc.cheatsheets.createAndExportATestSpec"
 				label="Create your own TestSpecification" id="createTestSpec" style-id="content-link">
@@ -25,5 +25,4 @@
 			</link>
 		</group>
 	</extensionContent>
-
 </introContent>
