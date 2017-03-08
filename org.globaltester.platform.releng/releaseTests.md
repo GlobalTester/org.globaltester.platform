@@ -12,6 +12,25 @@ Launch the GlobalTester Platform product and check the following
  - [ ] GlobalTester Platform feature is shown in the installation details
  - [ ] version numbers are correct
 
+
+1. [ ] __Check the welcome screen__  
+ - [ ] Select the "Overview" part of the welcome screen
+     - [ ] Check that the "GlobalTester basics" link is valid and opens the correct help page
+ - [ ] Select the "What's new" part of the welcome screen
+     - [ ] Check that the "GlobalTester" link is valid and opens the correct help page
+     - [ ] Check that the content has been updated for the new version
+ - [ ] Select the "Tutorials" part of the welcome screen
+     - [ ] Check that the "Getting started with GlobalTester" category is available
+     - [ ] Check that the following links are valid and open the correct cheat sheets
+         - [ ] "Import of a TestSpecification"
+         - [ ] "Execute TestCases"
+         - [ ] "Create your own TestSpecification"
+ - [ ] Select the "Web Resources" part of the welcome screen
+     - [ ] Check that the following links are valid and opens the correct web pages
+         - [ ] "GlobalTester.org"
+         - [ ] "secunet.com"
+         
+
 1. [ ] __Install and Run GlobalTester Platform Feature__ 
 Launch a fresh Eclipse and do/check the following
  - [ ] install product from UpdateSite (accept unsigned Content, restart required)
