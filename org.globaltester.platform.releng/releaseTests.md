@@ -73,11 +73,14 @@ Launch a fresh Eclipse and do/check the following
      - [ ] change some value in test campaign but do not save, then generate report and check for unsaved changes warning
      - [ ] create and execute test campaign, restart GT and remove test campaign via GT-Navigator
 
-1. [ ] __Check generation of test report from test campaign execution__
+1. [ ] __Check generation of test report__
+     - [ ] import "GT Scripts Internal" tests
+     - [ ] run all testsuites from folder "Reporting" within "GT Scripts Internal" both directly and via testcampaign and save reports for all runs
      - [ ] check that test report PDF is a valid PDF file
+     - [ ] check that overall test result matches expectations
      - [ ] check consistency of file integrity check results in test report matches log file
      - [ ] check for plausible execution time data for test cases in test report
-     - [ ] check that test report is consistent with test report created by executing test directly
+     - [ ] check that test report from testcampaign is consistent with test report created by executing test directly
      - [ ] check that the report directory created by generating a test report contains log files as expected
      - [ ] select option "Add separate log files for each test case" and check that the report directory created by generating a test report contains log files as expected
 
