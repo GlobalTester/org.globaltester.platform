@@ -7,6 +7,31 @@
 <body>
 	<h2>What's new in GlobalTester</h2>
 
+	<h3>What's new in GlobalTester 3.2.2</h3>
+	<ul>
+		<li>PersoSim based EAC1-ePassport simulation
+		<p>GlobalTester now includes protocol implementations to allow simulation of EAC1 ePassport based on PersoSim technology.
+		Additionally PersoSim logging was integrated in the GlobalTester test logfiles in order to allow detailed failure analysis.
+		Based on these changes several ActiveAuthentication related testcases have been fixed that showed minor issues with specific APDUs received from terminal.
+		</p> </li>
+		<li>Notable fixes in testcases
+		<p>
+			<ul>
+				<li>ISO_G16,17,21,22  added</li>
+				<li>TR03105 part 5.2 - Contents of user dialog unified/fixed</li>
+				<li>ISO7816_G_07 fixed for proprietary domain parameters</li>
+				<li>ISO_P73-75 fixed checks for SecInfo combinations</li>
+				<li>TR03105 part 5.1 - Removed misleading EACv2 SecInfos</li>
+				<li>openePassport - use BAC as fallback for PACE</li>
+				<li>ISO_R_05: use extended length APDU when needed for Active Authentication</li>
+				<li>LDS_H_10ff use correct adjusted BSI OIDs in EF.SOD</li>
+				<li>ISO_A_02: Incorrect hash algorithm (not matching testspec)</li>
+			</ul>
+		  
+		</p> </li>
+		<li>Several bugfixes</li>
+	</ul>
+	
 	<h3>What's new in GlobalTester 3.2.1</h3>
 	<ul>
 		<li>Several minor bugfixes</li>

@@ -1,3 +1,27 @@
+Version 3.2.2 (08.06.2017)
+
+* Migration to PersoSim
+* Implemented TAv1and AA on PersoSim
+* Migration ISO_E_* testcases to use PersoSim
+* Migration ISO7816_F_* testcases to use PersoSim
+* Include PersoSim log messages in GT test logfiles
+
+* Fixes in testcases
+* ISO_G16,17,21,22  added
+* TR03105 part 5.2 - Contents of user dialog unified/fixed
+* ISO7816_G_07 fixed for proprietary domain parameters
+* ISO_P73-75 fixed checks for SecInfo combinations
+* TR03105 part 5.1 - Removed misleading EACv2 SecInfos
+* openePassport - use BAC as fallback for PACE
+* ISO_R_05: use extended length APDU when needed for Active Authentication
+* LDS_H_10ff use correct adjusted BSI OIDs in EF.SOD
+* ISO_A_02: Incorrect hash algorithm (not matching testspec)
+
+* Several bugfixes
+* Missing UserInteraction in TestCampaign (leads to problems when executing reader tests)
+* Automatic report generation
+
+
 Version 3.2.1 (09.03.2017)
 
 * Several bugfixes
