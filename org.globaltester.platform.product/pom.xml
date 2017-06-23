@@ -7,6 +7,7 @@
     <version>3.2.2-SNAPSHOT</version>
     <relativePath>../../org.globaltester.parent/org.globaltester.parent.product/</relativePath>
   </parent>
+  <groupId>org.globaltester</groupId>
   <artifactId>org.globaltester.platform.product</artifactId>
   <packaging>eclipse-repository</packaging>
   <version>3.2.2-SNAPSHOT</version>
