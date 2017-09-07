@@ -73,6 +73,11 @@ Launch a fresh Eclipse and do/check the following
      - [ ] change some value in test campaign but do not save, then generate report and check for unsaved changes warning
      - [ ] create and execute test campaign, restart GT and remove test campaign via GT-Navigator
 
+1. [ ] __Check sample test spec__
+     - [ ] select a test case for successful execution (provide proper simulation or real card)
+     - [ ] execute test case in campaign
+     - [ ] check log file for irregularities (e.g. warnings or failures caused by undefined variables)
+
 1. [ ] __Check generation of test report__
      - [ ] import "GT Scripts Internal" tests
      - [ ] run all testsuites from folder "Reporting" within "GT Scripts Internal" both directly and via testcampaign and save reports for all runs
