@@ -365,4 +365,11 @@ to develop test suites for them.
          install-size="0"
          version="0.0.0"/>
 
+   <plugin
+         id="org.globaltester.logging.fileLogger"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
 </feature>
