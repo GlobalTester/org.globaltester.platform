@@ -88,5 +88,6 @@ Launch a fresh Eclipse and do/check the following
      - [ ] check that test report from testcampaign is consistent with test report created by executing test directly
      - [ ] check that the report directory created by generating a test report contains log files as expected
      - [ ] select option "Add separate log files for each test case" and check that the report directory created by generating a test report contains log files as expected
+     - [ ] check that the report directories can be deleted without closing the GT after report creation
 
 <p style="page-break-after: always"/>
