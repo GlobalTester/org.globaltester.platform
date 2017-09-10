@@ -1,3 +1,18 @@
+Version 3.2.3 (11.09.2017)
+
+*Fixes in testcases
+* ISO_K_19 - Active Authentication with long keys</li>
+* ISO_B_10 - CRL missing in dialog</li>
+* 7816_B_41 - do not access DG14 on BAC only Pass</li>
+* ISO_G_38 - wrong access conditions on DG 14</li>
+* LDS_E_3&4 - Checking of DG14 fails for certain (DH) cases</li>
+* TR03105 part 5.2 - 3DES in TS_PACE* and TS_EID</li>
+* ISO7816_E_07 - does not display certificates</li>
+
+* Several bugfixes
+* GT blocks acces to card readers
+* Return for invalid paths in TestControl
+
 Version 3.2.2 (12.06.2017)
 
 * Migration to PersoSim
