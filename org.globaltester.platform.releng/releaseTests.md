@@ -39,13 +39,13 @@ Use a workspace without sample configurations
      - [ ] Execute a test case
          - [ ] In the sample configuration selection dialog click on "New"
          - [ ] Enter a project name
-         - [ ] Configure some setting in the protocol tabs
+         - [ ] Configure some setting
      - [ ] Verify that the correctly named sample config is created in the workspace and used for the test execution
  - [ ] Open the new sample configuration wizard using the File menu
      - [ ] Open the new sample configuration wizard using the File menu
          - [ ] File -> new -> other ... -> GlobalTester -> SampleConfiguration
          - [ ] Enter a project name
-         - [ ] Configure some setting in the protocol tabs
+         - [ ] Configure some setting
          - [ ] Click "Finish"
      - [ ] Verify that the correctly named sample config is created in the workspace
      
@@ -71,7 +71,7 @@ Launch a fresh Eclipse and do/check the following
      - [ ] create and execute test campaign, then prepare to re-execute test campaign with explicit selection of SampleConfig, change SampleConfig, continue with execution and check that changes do not influence prior test campaign executions
      - [ ] open log file from test campaign
      - [ ] change some value in test campaign but do not save, then generate report and check for unsaved changes warning
-     - [ ] create and execute test campaign, restart GT and remove test campaign via GT-Navigator
+     - [ ] create and execute test campaign, do not restart GT and remove test campaign via GT-Navigator
 
 1. [ ] __Check sample test spec__
      - [ ] select a test case for successful execution (provide proper simulation or real card)
