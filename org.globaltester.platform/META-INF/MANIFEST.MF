@@ -15,5 +15,6 @@ Require-Bundle: org.eclipse.help.ui;bundle-version="4.0.100",
  org.globaltester.platform.doc;resolution:=optional,
  org.globaltester.base,
  org.globaltester.control.soap;bundle-version="0.2.0"
+Export-Package: org.globaltester.platform
 
 
