@@ -1,3 +1,18 @@
+Version 3.2.4 (15.05.2018)
+
+* ICAO TR Part 3 test case LDS_I_04 removed
+* Several script fixes for BSI 5.2 TS_Sig test cases
+* TS_eID_4.2.1* and TS_eID_5.3.1 - fixes for PACE failing with 6F00
+* Correct modification of personalization trust points after certificate generation for reader tests
+* BSI 5.1: DG2 JPG and JPG2000 image size corrected in datagroups
+* Fix for randomly occuring invalid signature generation during certificate generation for BSI part 3.2 tests
+* Migration of several test cases to PersoSim (mainly PACE-DH)
+* Improvements in the handling of forced key references for CA for chip tests
+* Support for reading data groups needing up to 5 length bytes in their TLV structure
+
+* Code maintenance
+
+
 Version 3.2.3 (12.09.2017)
 
 *Fixes in testcases
