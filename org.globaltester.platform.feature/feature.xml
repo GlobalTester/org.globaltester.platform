@@ -2,7 +2,7 @@
 <feature
       id="org.globaltester.platform.feature"
       label="GlobalTester Platform"
-      version="3.2.4.qualifier"
+      version="3.3.0.qualifier"
       provider-name="secunet Security Networks AG"
       plugin="org.globaltester.platform">
 
