@@ -6,7 +6,7 @@ import org.globaltester.swtbot.Strings;
 import org.globaltester.swtbot.uihelper.GlobalTesterUiHelper;
 import org.junit.Test;
 
-public class RCPTest {
+public class RcpIntegration{
 
 	@Test
 	public void testApplicationWindow() throws Exception {
