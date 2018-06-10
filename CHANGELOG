@@ -1,3 +1,8 @@
+Version 3.3.1 (11.06.2018)
+
+* Bugfix for field detection issues with card simulator
+
+
 Version 3.3.0 (15.05.2018)
 
 * ICAO TR Part 3 test case LDS_I_04 removed
