@@ -1,6 +1,6 @@
 package org.globaltester.platform;
 
-import static org.junit.Assert.assertNotNull;
+import static org.eclipse.swtbot.swt.finder.SWTBotAssert.assertMatchesRegex;
 
 import org.globaltester.swtbot.Strings;
 import org.globaltester.swtbot.uihelper.GlobalTesterUiHelper;
@@ -11,6 +11,6 @@ public class RcpIntegration{
 	@Test
 	public void testApplicationWindow() throws Exception {
 		GlobalTesterUiHelper.init();
-		assertNotNull(GlobalTesterUiHelper.getBot().shell(Strings.WORKBENCH_TITLE));
+		assertMatchesRegex(Strings.WORKBENCH_TITLE, GlobalTesterUiHelper.getBot().activeShell().getText());
 	}
 }
