@@ -7,6 +7,52 @@
 <body>
 	<h2>What's new in GlobalTester</h2>
 	
+	<h3>What's new in GlobalTester 3.4.0</h3>
+	<ul>
+		<li>Implementation of new testspec versions
+		<p>
+			<ul>
+				<li>BSI TR-03105 part 3.2 version 1.5</li>
+				<li>BSI TR-03105 part 3.3 version 1.1</li>
+				<li>ICAO TR part 3 version 2.11</li>
+				<li>ICAO TR part 4 version 2.11</li>
+			</ul>
+		</p> </li>
+		
+		<li>Platform updates
+		<p>
+			<ul>
+				<li>Add JNA smartcardio to allow new commands</li>
+				<li>Update to Eclipse Oxygen for compatibility</li>
+				<li>Consolidation of reporting engines</li>
+			</ul>
+		</p> </li>
+		
+		<li>Notable fixes in testcases
+		<p>
+			<ul>
+				<li>TS_PACE_1.3.1a some variants have incorrect OIDs for the PACE personalization</li>
+				<li>TS_PACE_3.5.1 is not personalized according to test specification</li>
+				<li>TS_eID_3.2.1* remove overspecific PACE checks</li>
+			</ul>
+		</p> </li>
+
+		<li>Other bugfixes
+		<p>
+			<ul>
+				<li>PersoSim does not correctly select files after the first personalized DF</li>
+				<li>The file control information in the legacy simulator is incorrect when file is bigger than 128 bytes</li>
+				<li>Missing execution time and overall results in JUnit-Report</li>
+				<li>Mitigate logging bottleneck to increase performance</li>
+				<li>Detect errors in profiles and profilemappings</li>
+			</ul>
+		</p> </li>
+		
+	</ul>
+
+
+	
+	
 	<h3>What's new in GlobalTester 3.3.1</h3>
 	<ul>
 		<li>Notable fixes in testcases
