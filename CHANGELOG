@@ -1,3 +1,28 @@
+Version 3.4.0 (14.01.2019)
+
+* Implementation of new testspec versions
+  * BSI TR-03105 part 3.2 version 1.5
+  * BSI TR-03105 part 3.3 version 1.1
+  * ICAO TR part 3 version 2.11
+  * ICAO TR part 4 version 2.11
+
+* Add JNA smartcardio to allow new commands
+* Update to Eclipse Oxygen for compatibility
+* Consolidation of reporting engines
+
+*Fixes in testcases
+  * TS_PACE_1.3.1a some variants have incorrect OIDs for the PACE personalization
+  * TS_PACE_3.5.1 is not personalized according to test specification
+  * TS_eID_3.2.1* remove overspecific PACE checks
+
+*Other bugfixes
+  * PersoSim does not correctly select files after the first personalized DF
+  * The file control information in the legacy simulator is incorrect when file is bigger than 128 bytes
+  * Missing execution time and overall results in JUnit-Report
+  * Mitigate logging bottleneck to increase performance
+  * Detect errors in profiles and profilemappings
+
+
 Version 3.3.1 (12.06.2018)
 
 * ISO7816_E_26 - Encode date of birth as String
