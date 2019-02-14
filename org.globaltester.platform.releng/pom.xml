@@ -35,7 +35,9 @@
     <module>../../org.globaltester.cryptoprovider/org.globaltester.cryptoprovider.bc.legacy_1_46</module>
     <module>../../org.globaltester.junit/org.globaltester.junit</module>
     <module>../../org.globaltester.lib.jmockit/org.globaltester.lib.jmockit</module>
+    <module>../../org.globaltester.lib.jaxws/org.globaltester.lib.jaxws</module>
     <module>../../org.globaltester.lib.json/org.globaltester.lib.json</module>
+    <module>../../org.globaltester.lib.smartcardio/org.globaltester.lib.smartcardio</module>
     <module>../../org.globaltester.logging.logfileeditor/org.globaltester.logging.logfileeditor.ui</module>
     <module>../../org.globaltester.logging.logfileeditor/org.globaltester.logging.logfileeditor.ui.test</module>
     <module>../../org.globaltester.logging/org.globaltester.logging</module>
@@ -50,8 +52,6 @@
     <module>../../org.globaltester.platform/org.globaltester.platform.integrationtest</module>
     <module>../../org.globaltester.platform/org.globaltester.platform.site</module>
     <module>../../org.globaltester.platform/org.globaltester.platform.product</module>
-    <module>../../org.globaltester.protocol/org.globaltester.protocol</module>
-    <module>../../org.globaltester.protocol/org.globaltester.protocol.ui</module>
     <module>../../org.globaltester.service/org.globaltester.service</module>
     <module>../../org.globaltester.service/org.globaltester.service.doc</module>
     <module>../../org.globaltester.service/org.globaltester.service.ui</module>
@@ -83,5 +83,6 @@
     <module>../../org.globaltester.lib.apache.xml/org.globaltester.lib.apache.xml</module>
     <module>../../org.globaltester.lib.domparser/org.globaltester.lib.domparser</module>	
     <module>../../org.globaltester.lib.xstream/org.globaltester.lib.xstream</module>	
+    <module>../../de.persosim.simulator/de.persosim.simulator</module>
   </modules>
 </project>
