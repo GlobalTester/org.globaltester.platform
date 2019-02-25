@@ -1,3 +1,17 @@
+Version 3.4.1 (26.02.2019)
+
+* Adapt to required changes to allow usage on Java 11
+* Update to Eclipse Photon for compatibility
+		
+* Notable fixes in testcases
+  * EAC2_DATA_B11: use correct variable names
+  * EAC2_ISO7816_V_3: remove redundant PACE implementation
+  * EAC2_ISO7816_V_11: Wrong private key reference in MSE: Set AT for PSA
+  * EAC2_DATA_C_1: syntax error
+  * EAC2_ISO7816_I_17: read privileged key from EF.ChipSecurity
+  * EAC2_ISO7816_M_4: use correct certificate dates
+
+
 Version 3.4.0 (16.01.2019)
 
 * Implementation of new testspec versions
