@@ -5,398 +5,398 @@
   <parent>
     <groupId>org.globaltester</groupId>
     <artifactId>org.globaltester.parent.coverage</artifactId>
-    <version>3.4.0-SNAPSHOT</version>
+    <version>3.4.1-SNAPSHOT</version>
     <relativePath>../../org.globaltester.parent/org.globaltester.parent.coverage/</relativePath>
   </parent>
 
   <groupId>org.globaltester</groupId>
   <artifactId>org.globaltester.platform.coverage</artifactId>
-  <version>3.4.0-SNAPSHOT</version>
+  <version>3.4.1-SNAPSHOT</version>
   <packaging>pom</packaging>
 
   <dependencies>
     <dependency>
       <groupId>org.globaltester</groupId>
       <artifactId>org.globaltester.dev.tools</artifactId>
-      <version>3.4.0-SNAPSHOT</version>
+      <version>3.4.1-SNAPSHOT</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>org.globaltester</groupId>
       <artifactId>org.globaltester.base</artifactId>
-      <version>3.4.0-SNAPSHOT</version>
+      <version>3.4.1-SNAPSHOT</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>org.globaltester</groupId>
       <artifactId>org.globaltester.base.doc</artifactId>
-      <version>3.4.0-SNAPSHOT</version>
+      <version>3.4.1-SNAPSHOT</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>org.globaltester</groupId>
       <artifactId>org.globaltester.base.test</artifactId>
-      <version>3.4.0-SNAPSHOT</version>
+      <version>3.4.1-SNAPSHOT</version>
       <scope>test</scope>
     </dependency>
     <dependency>
       <groupId>org.globaltester</groupId>
       <artifactId>org.globaltester.base.ui</artifactId>
-      <version>3.4.0-SNAPSHOT</version>
+      <version>3.4.1-SNAPSHOT</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>org.globaltester</groupId>
       <artifactId>org.globaltester.sampleconfiguration</artifactId>
-      <version>3.4.0-SNAPSHOT</version>
+      <version>3.4.1-SNAPSHOT</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>org.globaltester</groupId>
       <artifactId>org.globaltester.sampleconfiguration.doc</artifactId>
-      <version>3.4.0-SNAPSHOT</version>
+      <version>3.4.1-SNAPSHOT</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>org.globaltester</groupId>
       <artifactId>org.globaltester.sampleconfiguration.test</artifactId>
-      <version>3.4.0-SNAPSHOT</version>
+      <version>3.4.1-SNAPSHOT</version>
       <scope>test</scope>
     </dependency>
     <dependency>
       <groupId>org.globaltester</groupId>
       <artifactId>org.globaltester.sampleconfiguration.ui</artifactId>
-      <version>3.4.0-SNAPSHOT</version>
+      <version>3.4.1-SNAPSHOT</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>org.globaltester</groupId>
       <artifactId>org.globaltester.control</artifactId>
-      <version>3.4.0-SNAPSHOT</version>
+      <version>3.4.1-SNAPSHOT</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>org.globaltester</groupId>
       <artifactId>org.globaltester.control.doc</artifactId>
-      <version>3.4.0-SNAPSHOT</version>
+      <version>3.4.1-SNAPSHOT</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>org.globaltester</groupId>
       <artifactId>org.globaltester.control.soap</artifactId>
-      <version>3.4.0-SNAPSHOT</version>
+      <version>3.4.1-SNAPSHOT</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>org.globaltester</groupId>
       <artifactId>org.globaltester.control.soap.doc</artifactId>
-      <version>3.4.0-SNAPSHOT</version>
+      <version>3.4.1-SNAPSHOT</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>org.globaltester</groupId>
       <artifactId>org.globaltester.control.soap.integrationtest</artifactId>
-      <version>3.4.0-SNAPSHOT</version>
+      <version>3.4.1-SNAPSHOT</version>
       <scope>test</scope>
     </dependency>
     <dependency>
       <groupId>org.globaltester</groupId>
       <artifactId>org.globaltester.control.soap.sample.client</artifactId>
-      <version>3.4.0-SNAPSHOT</version>
+      <version>3.4.1-SNAPSHOT</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>org.globaltester</groupId>
       <artifactId>org.globaltester.control.soap.sample.service</artifactId>
-      <version>3.4.0-SNAPSHOT</version>
+      <version>3.4.1-SNAPSHOT</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>org.globaltester</groupId>
       <artifactId>org.globaltester.cryptoprovider</artifactId>
-      <version>3.4.0-SNAPSHOT</version>
+      <version>3.4.1-SNAPSHOT</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>org.globaltester</groupId>
       <artifactId>org.globaltester.cryptoprovider.bc</artifactId>
-      <version>3.4.0-SNAPSHOT</version>
+      <version>3.4.1-SNAPSHOT</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>org.globaltester</groupId>
       <artifactId>org.globaltester.cryptoprovider.bc.legacy_1_46</artifactId>
-      <version>3.4.0-SNAPSHOT</version>
+      <version>3.4.1-SNAPSHOT</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>org.globaltester</groupId>
       <artifactId>org.globaltester.junit</artifactId>
-      <version>3.4.0-SNAPSHOT</version>
+      <version>3.4.1-SNAPSHOT</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>org.globaltester</groupId>
       <artifactId>org.globaltester.lib.jmockit</artifactId>
-      <version>3.4.0-SNAPSHOT</version>
+      <version>3.4.1-SNAPSHOT</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>org.globaltester</groupId>
       <artifactId>org.globaltester.logging.logfileeditor.ui</artifactId>
-      <version>3.4.0-SNAPSHOT</version>
+      <version>3.4.1-SNAPSHOT</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>org.globaltester</groupId>
       <artifactId>org.globaltester.logging.logfileeditor.ui.test</artifactId>
-      <version>3.4.0-SNAPSHOT</version>
+      <version>3.4.1-SNAPSHOT</version>
       <scope>test</scope>
     </dependency>
     <dependency>
       <groupId>org.globaltester</groupId>
       <artifactId>org.globaltester.logging</artifactId>
-      <version>3.4.0-SNAPSHOT</version>
+      <version>3.4.1-SNAPSHOT</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>org.globaltester</groupId>
       <artifactId>org.globaltester.logging.test</artifactId>
-      <version>3.4.0-SNAPSHOT</version>
+      <version>3.4.1-SNAPSHOT</version>
       <scope>test</scope>
     </dependency>
     <dependency>
       <groupId>org.globaltester</groupId>
       <artifactId>org.globaltester.logging.fileLogger</artifactId>
-      <version>3.4.0-SNAPSHOT</version>
+      <version>3.4.1-SNAPSHOT</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>org.globaltester</groupId>
       <artifactId>org.globaltester.logging.legacy</artifactId>
-      <version>3.4.0-SNAPSHOT</version>
+      <version>3.4.1-SNAPSHOT</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>org.globaltester</groupId>
       <artifactId>org.globaltester.platform.feature</artifactId>
-      <version>3.4.0-SNAPSHOT</version>
+      <version>3.4.1-SNAPSHOT</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>org.globaltester</groupId>
       <artifactId>org.globaltester.platform</artifactId>
-      <version>3.4.0-SNAPSHOT</version>
+      <version>3.4.1-SNAPSHOT</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>org.globaltester</groupId>
       <artifactId>org.globaltester.platform.doc</artifactId>
-      <version>3.4.0-SNAPSHOT</version>
+      <version>3.4.1-SNAPSHOT</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>org.globaltester</groupId>
       <artifactId>org.globaltester.platform.integrationtest</artifactId>
-      <version>3.4.0-SNAPSHOT</version>
+      <version>3.4.1-SNAPSHOT</version>
       <scope>test</scope>
     </dependency>
     <dependency>
       <groupId>org.globaltester</groupId>
       <artifactId>org.globaltester.protocol</artifactId>
-      <version>3.4.0-SNAPSHOT</version>
+      <version>3.4.1-SNAPSHOT</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>org.globaltester</groupId>
       <artifactId>org.globaltester.protocol.ui</artifactId>
-      <version>3.4.0-SNAPSHOT</version>
+      <version>3.4.1-SNAPSHOT</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>org.globaltester</groupId>
       <artifactId>org.globaltester.service</artifactId>
-      <version>3.4.0-SNAPSHOT</version>
+      <version>3.4.1-SNAPSHOT</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>org.globaltester</groupId>
       <artifactId>org.globaltester.service.doc</artifactId>
-      <version>3.4.0-SNAPSHOT</version>
+      <version>3.4.1-SNAPSHOT</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>org.globaltester</groupId>
       <artifactId>org.globaltester.service.ui</artifactId>
-      <version>3.4.0-SNAPSHOT</version>
+      <version>3.4.1-SNAPSHOT</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>org.globaltester</groupId>
       <artifactId>org.globaltester.smartcardshell</artifactId>
-      <version>3.4.0-SNAPSHOT</version>
+      <version>3.4.1-SNAPSHOT</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>org.globaltester</groupId>
       <artifactId>org.globaltester.smartcardshell.test</artifactId>
-      <version>3.4.0-SNAPSHOT</version>
+      <version>3.4.1-SNAPSHOT</version>
       <scope>test</scope>
     </dependency>
     <dependency>
       <groupId>org.globaltester</groupId>
       <artifactId>org.globaltester.smartcardshell.doc</artifactId>
-      <version>3.4.0-SNAPSHOT</version>
+      <version>3.4.1-SNAPSHOT</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>org.globaltester</groupId>
       <artifactId>org.globaltester.smartcardshell.ui</artifactId>
-      <version>3.4.0-SNAPSHOT</version>
+      <version>3.4.1-SNAPSHOT</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>org.globaltester</groupId>
       <artifactId>org.globaltester.smartcardshell.protocols.bac</artifactId>
-      <version>3.4.0-SNAPSHOT</version>
+      <version>3.4.1-SNAPSHOT</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>org.globaltester</groupId>
       <artifactId>org.globaltester.smartcardshell.protocols.icao9303</artifactId>
-      <version>3.4.0-SNAPSHOT</version>
+      <version>3.4.1-SNAPSHOT</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>org.globaltester</groupId>
       <artifactId>org.globaltester.smartcardshell.protocols.iso7816</artifactId>
-      <version>3.4.0-SNAPSHOT</version>
+      <version>3.4.1-SNAPSHOT</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>org.globaltester</groupId>
       <artifactId>org.globaltester.smartcardshell.protocols.securemessaging</artifactId>
-      <version>3.4.0-SNAPSHOT</version>
+      <version>3.4.1-SNAPSHOT</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>org.globaltester</groupId>
       <artifactId>org.globaltester.smartcardshell.protocols.securemessaging.ui</artifactId>
-      <version>3.4.0-SNAPSHOT</version>
+      <version>3.4.1-SNAPSHOT</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>org.globaltester</groupId>
       <artifactId>org.globaltester.swtbot</artifactId>
-      <version>3.4.0-SNAPSHOT</version>
+      <version>3.4.1-SNAPSHOT</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>org.globaltester</groupId>
       <artifactId>org.globaltester.testrunner</artifactId>
-      <version>3.4.0-SNAPSHOT</version>
+      <version>3.4.1-SNAPSHOT</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>org.globaltester</groupId>
       <artifactId>org.globaltester.testrunner.test</artifactId>
-      <version>3.4.0-SNAPSHOT</version>
+      <version>3.4.1-SNAPSHOT</version>
       <scope>test</scope>
     </dependency>
     <dependency>
       <groupId>org.globaltester</groupId>
       <artifactId>org.globaltester.testrunner.doc</artifactId>
-      <version>3.4.0-SNAPSHOT</version>
+      <version>3.4.1-SNAPSHOT</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>org.globaltester</groupId>
       <artifactId>org.globaltester.testrunner.ui</artifactId>
-      <version>3.4.0-SNAPSHOT</version>
+      <version>3.4.1-SNAPSHOT</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>org.globaltester</groupId>
       <artifactId>org.globaltester.testspec.sample</artifactId>
-      <version>3.4.0-SNAPSHOT</version>
+      <version>3.4.1-SNAPSHOT</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>org.globaltester</groupId>
       <artifactId>org.globaltester.testspecification</artifactId>
-      <version>3.4.0-SNAPSHOT</version>
+      <version>3.4.1-SNAPSHOT</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>org.globaltester</groupId>
       <artifactId>org.globaltester.testspecification.test</artifactId>
-      <version>3.4.0-SNAPSHOT</version>
+      <version>3.4.1-SNAPSHOT</version>
       <scope>test</scope>
     </dependency>
     <dependency>
       <groupId>org.globaltester</groupId>
       <artifactId>org.globaltester.testspecification.doc</artifactId>
-      <version>3.4.0-SNAPSHOT</version>
+      <version>3.4.1-SNAPSHOT</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>org.globaltester</groupId>
       <artifactId>org.globaltester.testspecification.export.secunet</artifactId>
-      <version>3.4.0-SNAPSHOT</version>
+      <version>3.4.1-SNAPSHOT</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>org.globaltester</groupId>
       <artifactId>org.globaltester.testspecification.ui</artifactId>
-      <version>3.4.0-SNAPSHOT</version>
+      <version>3.4.1-SNAPSHOT</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>org.globaltester</groupId>
       <artifactId>org.globaltester.scriptrunner</artifactId>
-      <version>3.4.0-SNAPSHOT</version>
+      <version>3.4.1-SNAPSHOT</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>org.globaltester</groupId>
       <artifactId>org.globaltester.scriptrunner.ui</artifactId>
-      <version>3.4.0-SNAPSHOT</version>
+      <version>3.4.1-SNAPSHOT</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>org.globaltester</groupId>
       <artifactId>org.globaltester.simulator</artifactId>
-      <version>3.4.0-SNAPSHOT</version>
+      <version>3.4.1-SNAPSHOT</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>org.globaltester</groupId>
       <artifactId>org.globaltester.lib.apache.fop</artifactId>
-      <version>3.4.0-SNAPSHOT</version>
+      <version>3.4.1-SNAPSHOT</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>org.globaltester</groupId>
       <artifactId>org.globaltester.lib.apache.fop.test</artifactId>
-      <version>3.4.0-SNAPSHOT</version>
+      <version>3.4.1-SNAPSHOT</version>
       <scope>test</scope>
     </dependency>
     <dependency>
       <groupId>org.globaltester</groupId>
       <artifactId>org.globaltester.lib.apache.xml</artifactId>
-      <version>3.4.0-SNAPSHOT</version>
+      <version>3.4.1-SNAPSHOT</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>org.globaltester</groupId>
       <artifactId>org.globaltester.lib.domparser</artifactId>
-      <version>3.4.0-SNAPSHOT</version>
+      <version>3.4.1-SNAPSHOT</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>org.globaltester</groupId>
       <artifactId>org.globaltester.lib.xstream</artifactId>
-      <version>3.4.0-SNAPSHOT</version>
+      <version>3.4.1-SNAPSHOT</version>
       <scope>compile</scope>
     </dependency>
   </dependencies>
