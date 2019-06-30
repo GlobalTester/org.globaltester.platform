@@ -1,3 +1,12 @@
+Version 3.5.1 (01.07.2019)
+
+* Notable fixes in testcases
+  * EAC2_DATA_C_10: use correct FID
+  * EAC2_DATA_C_08/09/11/12: add/refactor missing testcases
+  * TS_PACE_1.3.1_*: fix some IM configurations
+  * EAC2_ISO7816_V_*: Handle certificates with different hash algorithms
+
+
 Version 3.5.0 (08.06.2019)
 
 * Support CL Verify A simulation device
