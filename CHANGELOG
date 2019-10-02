@@ -1,3 +1,12 @@
+Version 3.5.2 (02.10.2019)
+
+* Notable fixes in testcases
+  * LDS_E_03: Fix the size boundary check on the private DH value length
+
+* Other bugfixes
+  * select CA keyId in PACE-CAM matching to PACE domain parameter id
+
+
 Version 3.5.1 (01.07.2019)
 
 * Notable fixes in testcases
