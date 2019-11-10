@@ -1,3 +1,10 @@
+Version 3.5.3 (11.11.2019)
+
+* Notable bugfixes
+  * performCA after PACE-CAM uses CAM data instead of independent CAv1
+  * remove deprecated SocketCardTerminal from default config for speed improvements
+
+
 Version 3.5.2 (02.10.2019)
 
 * Notable fixes in testcases
