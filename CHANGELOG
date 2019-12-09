@@ -1,3 +1,13 @@
+Version 3.5.4 (10.12.2019)
+
+* Notable fixes in testcases
+  * EAC2_ISO7816_L_26: gracefully handle warnings in preconditions
+
+* Other bugfixes
+  * CL Verify A: allow longer extended length responses (w/ new firmware image)
+  * preConDeactivatePIN: accept non 9000 SW with testcase warning
+
+
 Version 3.5.3 (11.11.2019)
 
 * Notable bugfixes
