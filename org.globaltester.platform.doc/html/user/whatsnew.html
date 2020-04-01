@@ -8,6 +8,41 @@
 	<h2>What's new in GlobalTester</h2>
 		
 		
+	<h3>What's new in GlobalTester 3.6.0</h3>
+	<ul>
+		
+		<li>Implementation of new testspec versions
+		<p>
+			<ul>
+				<li>BSI TR-03105 part 3.3 version 1.2 <br/>
+				<b>Note:</b> Implementation of testcases EAC2_ISO7816_M_* and EAC2_ISO7816_N_* differs from specification.
+				The certificates used are changed to use valid combinations of effective and expiration dates and use consistent chains.
+				According testcase comments have already been communicated to BSI.				
+				</li>
+				<li>BSI TR-03105 part 5.1 version 1.5</li>
+			</ul>
+		</p> </li>
+		
+		<li>Notable fixes in testcases
+		<p>
+			<ul>
+				<li> ISO7816_L_13: use correct BAC keys when BAC is executed twice</li>
+				<li> ISO7816_L_14/16: handle SM errors immediately after selectMF </li>
+			</ul>
+		</p> </li>
+		
+		<li>Other bugfixes
+		<p>
+			<ul>
+				<li> CL Verify A: allow to open tracer port from GlobalTester </li>
+				<li> DG22: Handle profile mappings </li>
+				<li> SampleConfig: actually check file presence for cached datagroups</li>
+			</ul>
+		</p> </li>
+		
+	</ul>
+		
+		
 	<h3>What's new in GlobalTester 3.5.4</h3>
 	<ul>
 		
