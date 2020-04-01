@@ -1,3 +1,22 @@
+Version 3.6.0 (02.04.2020)
+
+* Implementation of new testspec versions
+  * BSI TR-03105 part 3.3 version 1.2
+    Note: Implementation of testcases EAC2_ISO7816_M_* and EAC2_ISO7816_N_* differs from specification.
+          The certificates used are changed to use valid combinations of effective and expiration dates and use consistent chains.
+          According testcase comments have already been communicated to BSI.
+  * BSI TR-03105 part 5.1 version 1.5
+
+* Notable fixes in testcases
+  * ISO7816_L_13: use correct BAC keys when BAC is executed twice
+  * ISO7816_L_14/16: handle SM errors immediately after selectMF
+
+* Other bugfixes
+  * CL Verify A: allow to open tracer port from GlobalTester
+  * DG22: Handle profile mappings
+  * SampleConfig: actually check file presence for cached datagroups
+
+
 Version 3.5.4 (10.12.2019)
 
 * Notable fixes in testcases
