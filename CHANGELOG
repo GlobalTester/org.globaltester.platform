@@ -1,4 +1,4 @@
-Version 3.6.0 (02.04.2020)
+Version 3.6.0 (03.04.2020)
 
 * Implementation of new testspec versions
   * BSI TR-03105 part 3.3 version 1.2
@@ -10,6 +10,7 @@ Version 3.6.0 (02.04.2020)
 * Notable fixes in testcases
   * ISO7816_L_13: use correct BAC keys when BAC is executed twice
   * ISO7816_L_14/16: handle SM errors immediately after selectMF
+  * EAC2_ISO7816_V*: Handle presence/absence of different pseudonymous public keys in PSA
 
 * Other bugfixes
   * CL Verify A: allow to open tracer port from GlobalTester
