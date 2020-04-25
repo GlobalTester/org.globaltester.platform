@@ -1,3 +1,11 @@
+Version 3.6.1 (27.04.2020)
+
+* Notable fixes in testcases
+  * LDS_J: add missing testcases
+  * EAC2_ISO7816_N_02: Use most recent M_11 link cert as base for N_02 link cert generation
+  * LDS_D_05: handle SignerInfo w/ SubjectKeyIdentifier
+  * LDS_D_07: fix key usage check
+
 Version 3.6.0 (03.04.2020)
 
 * Implementation of new testspec versions
