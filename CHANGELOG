@@ -1,3 +1,17 @@
+Version 3.6.2 (19.05.2020)
+
+* Notable fixes in testcases
+  * ISO7816_C_07-22: adapt testcases and ids according to spec/add missing testcases
+  * ISO7816_C_29ff: explicitly use CFG.DFLT.PACE.CAM instead of CFG.DFLT.PACE with modifier in testcase
+  * ISO7816_O_14/22: skip step 2 if 6982 returned in step 1
+  * ISO7816_T_*: Make sure card is properly reset at testcase begin
+		
+* Other changes
+  * Regnerate testdata for inspection system tests </li>
+  * Remove obsolete testcases within BSI TR-03105 part 5.1</li>
+  * Adapt Generate_ALL_CFG
+
+
 Version 3.6.1 (27.04.2020)
 
 * Notable fixes in testcases
