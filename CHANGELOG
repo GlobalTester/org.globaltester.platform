@@ -1,3 +1,15 @@
+Version 3.6.3 (09.06.2020)
+
+* Notable fixes in testcases
+  * EAC2_DATA_B_11 - ignore PrivilegedTerminalInfo
+  * EAC2_ISO7816_M_09ff: use PIN instead of CAN
+		
+* Other changes
+  * Regnerate testdata for inspection system tests
+  * Adapt Generate_ALL_CFG
+  * Remove license checks in wrapSm
+
+
 Version 3.6.2 (19.05.2020)
 
 * Notable fixes in testcases
