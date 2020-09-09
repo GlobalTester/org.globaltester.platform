@@ -1,3 +1,29 @@
+Version 3.7.0 (10.09.2020)
+		
+* Implementation of new testspec versions
+  * BSI TR-03105 part 3.2 version 1.5.1
+  * ISO/IEC DIS 18013 - 4: ISO - compliant driving licence — Part 4: Test methods
+		
+* Notable fixes in testcases
+  * ICAO Part 4 LDS_A_10: Wrong LDS version in EF.COM
+  * ICAO Part 4 ISO_C_36: Remove PACE-GM from DG14, update EF.SOD
+  * ICAO Part 4 LDS_B_24: use correct MRZ for personalizing passID
+  * ICAO Part 4 ISO_D_01a/b: remove incomplete conditional blocks
+  * ICAO Part 4: Add missing generator scripts to Generate_ALL_CFG
+				
+  * BSI TR-03105-3.3 EAC2_ISO7816_Q_20: fix AAD format, accept SW 6300 w/ implementation warning
+				
+  * BSI TR-03105-5.2 TS_TA_*: adjust transmitted testdata
+  * BSI TR-03105-5.2 TS_PACE_1.1.2b: use correct access rights
+  * BSI TR-03105-5.2 TS_CA_1_2_2: Use standardized domain parameters for CA
+		
+* Other changes
+  * Selection of generator based sub testcases
+  * Adjust PDF report to accomodate new/long testcase ids
+  * Performance optimization in license checks
+  * Per testcase logging includes only the single testcase
+
+
 Version 3.6.3 (09.06.2020)
 
 * Notable fixes in testcases
