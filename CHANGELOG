@@ -1,3 +1,13 @@
+Version 3.7.1 (22.09.2020)
+
+* Notable fixes in testcases
+  * SE_LDS_DG1_*: Correct the date query for DG1 </li>
+		
+* Other changes
+  * TAv1 extract idPicc from IDL MRZ instead of DG1
+  * Adjust bouncycastle dependency to satisfy newer eclipse versions
+
+
 Version 3.7.0 (15.09.2020)
 		
 * Implementation of new testspec versions
