@@ -1,3 +1,24 @@
+Version 3.7.2 (27.11.2020)
+
+* Notable fixes in testcases
+  * ICAO Part 4 ISO7816_C_15: no longer uses IM instead of GM
+  * ICAO Part 4 ISO7816_C_14-27: use correct profiles
+  * ICAO Part 4 ISO7816_C_16: use correct test case id
+  * ICAO Part 4 LDS_D_01d: change signature algorithm to SHA-224
+  * ICAO Part 4 LDS_D_09,10,17,18,21,22,24-26,33,34: use correct first byte in data to sign
+  * ISO18013 LDS_COM_13: remove access to DG12
+  * ISO18013 LDS_SOD_06: handle optional EAC requirements for DGs
+  * BSI TR-03105-3.3 Certificate generation: use correct domain parameter ID in case of brainpool 224
+  * BSI TR-03105-5.2 TS_TA_1.1.1: removes obsolete parameter used in test data
+  * Chip tests: check for zero-length mapping data in case of PACE-IM
+		
+* Other changes
+  * Certificate generation for chip test cases with NIST SECP curves
+  * Result view now allows filtering
+  * SampleConfig contains a new field for describing the used test setup, e.g. used card reader
+  * Report contains SampleConfig fields for test setup and description
+
+
 Version 3.7.1 (22.09.2020)
 
 * Notable fixes in testcases
