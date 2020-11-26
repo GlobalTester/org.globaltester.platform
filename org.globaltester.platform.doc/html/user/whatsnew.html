@@ -8,6 +8,37 @@
 	<h2>What's new in GlobalTester</h2>
 		
 		
+	<h3>What's new in GlobalTester 3.7.2</h3>
+	<ul>
+		
+		<li>Notable fixes in testcases
+			<p>
+				<ul>
+					<li> ICAO Part 4 ISO7816_C_15: no longer uses IM instead of GM </li>
+					<li> ICAO Part 4 ISO7816_C_14-27: use correct profiles </li>
+					<li> ICAO Part 4 ISO7816_C_16: use correct test case id </li>
+					<li> ICAO Part 4 LDS_D_01d: change signature algorithm to SHA-224 </li>
+					<li> ICAO Part 4 LDS_D_09,10,17,18,21,22,24-26,33,34: use correct first byte in data to sign </li>
+					<li> BSI TR-03105-3.3 Certificate generation: use correct domain parameter ID in case of brainpool 224 </li>
+					<li> BSI TR-03105-5.2 TS_TA_1.1.1: removes obsolete parameter used in test data </li>
+					<li> Chip tests: check for zero-length mapping data in case of PACE-IM </li>
+				</ul>
+			</p>
+		</li>
+		
+		<li>Other changes
+			<p>
+				<ul>
+					<li> Certificate generation for chip test cases with NIST SECP curves </li>
+					<li> Result view now allows filtering </li>
+					<li> SampleConfig contains a new field for describing the used test setup, e.g. used card reader </li>
+					<li> Report contains SampleConfig fields for test setup and description </li>
+				</ul>
+			</p>
+		</li>
+	</ul>
+		
+		
 	<h3>What's new in GlobalTester 3.7.1</h3>
 	<ul>
 		
