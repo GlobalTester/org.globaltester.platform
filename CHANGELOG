@@ -1,3 +1,14 @@
+Version 3.8.1 (07.01.2021)
+
+* Notable fixes in testcases
+  * BSI TR-03105-5.2 TS_TA_2.1.1: Always use AT-CHAT for PACE
+
+
+* Other changes
+  * Better performance in GUI and test case execution
+  * Improved stability when running multiple tests on the same system
+    * Additional configuration options for card access handling
+
 Version 3.8.0 (15.12.2020)
 
 * Public release of GT Prove IDL
