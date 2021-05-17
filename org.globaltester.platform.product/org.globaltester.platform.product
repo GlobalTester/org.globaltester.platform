@@ -14,7 +14,7 @@
    </configIni>
 
    <launcherArgs>
-      <vmArgs>-Xms40m -Xmx384m
+      <vmArgs>-Xms128m -Xmx1024m
       </vmArgs>
       <vmArgsMac>-XstartOnFirstThread -Dorg.eclipse.swt.internal.carbon.smallFonts
       </vmArgsMac>
@@ -29,7 +29,6 @@
       startupForegroundColor="000000" />
    <launcher name="GlobalTester">
       <linux icon="../org.globaltester.platform/icons/globaltester.xpm"/>
-      <solaris/>
       <win useIco="true">
          <bmp
             winSmallHigh="../org.globaltester.platform/icons/gt16.bmp"
@@ -65,6 +64,9 @@ your own software and do not publish your code under the GPL,
 then you will need a commercial license from us (Dual-license).
          </text>
    </license>
+
+   <plugins>
+   </plugins>
 
    <features>
       <feature id="org.globaltester.platform.feature"/>
