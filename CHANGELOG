@@ -1,3 +1,15 @@
+Version 3.8.3 (03.03.2021)
+
+* Notable fixes in testcases
+ * ICAO Part 3 ISO7816_P_78: Use correct profile PACE-CAM
+ * ISO18013 ISO7816_SecPAP_41,42: Fix missing variables
+ * ISO18013 SE_LDS_COM_009: Allow SMI to be optional
+ * ISO18013 SE_LDS_COM_013: Correctly handle SMI parsing
+ * ISO18013 SE_LDS_SOD_06: Remove reference to obsolete variable
+
+* Other changes
+ * Show warning when using a path containing problematic characters for report creation
+
 Version 3.8.3 (18.05.2021)
 
 * Notable fixes in testcases
