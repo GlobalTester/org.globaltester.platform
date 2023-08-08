@@ -1,3 +1,19 @@
+Version 3.9.0 (09.08.2023)
+
+* Implementation of new testspec versions
+ * BSI TR-03135 Part 3.3 Version 1.4 for Smart-eID testing
+
+* Notable fixes in testcases
+ * BSI TR-03105-3.3: Allow ESIGN_S_04 to use extended length APDU for long keys
+ * ISO 18013-4 SE_LDS_DG1_016,017,018,019,020: Test cases do not allow optional fields to be missing
+ * BSI TR-03105-3.3: Fix index out of range error during PACE
+ * BSI TR-03105-3.3: Allow using different domain parameters for CAv3
+ * BSI TR-03105-5.2: Use correct SFID for EF.DIR in GT simulator eID personalizations
+ * BSI TR-03105-5.2: Use correct length for EF.DIR in GT simulator personalizations
+* Other changes
+ * Show additional test log information in result view comment column
+
+
 Version 3.8.4 (05.04.2022)
 
 * Notable fixes in testcases
@@ -10,6 +26,7 @@ Version 3.8.4 (05.04.2022)
 
 * Other changes
  * Show warning when using a path containing problematic characters for report creation
+
 
 Version 3.8.3 (18.05.2021)
 
@@ -27,6 +44,7 @@ Version 3.8.3 (18.05.2021)
  * TestCampaign could create NullPointer exceptions in some cases during save
  * Reports and logs contain additional information about test case profiles
  * Default configuration allows for more RAM to be used
+
 
 Version 3.8.2 (24.02.2021)
 
